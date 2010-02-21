@@ -1,0 +1,32 @@
+// weaver 
+// gfx hux shaders
+
+gfx/hud/disc0
+{
+	nopicmip
+	{
+		map gfx/hud/disc0.png          
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
+        rgbGen identity
+	}
+}
+
+gfx/hud/disc1
+{
+	nopicmip
+	{
+		map gfx/hud/disc1.png          
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
+        rgbGen identity
+	}
+}
+
+gfx/hud/icon_hp
+{
+	nopicmip
+	{
+		map gfx/hud/icon_hp.tga          
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
+        rgbGen identity
+	}
+}

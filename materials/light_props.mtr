@@ -1,0 +1,96 @@
+models/mapobjects/light_props/candle
+{
+    qer_editorimage    models/mapobjects/light_props/candle.png
+    
+	diffusemap         models/mapobjects/light_props/candle.png
+	specularmap	    models/mapobjects/light_props/candle_gloss.png
+	bumpmap            models/mapobjects/light_props/candle_nm.png
+}
+
+models/mapobjects/light_props/candlehold1
+{
+    qer_editorimage    models/mapobjects/light_props/candlehold1.png
+    
+	diffusemap         models/mapobjects/light_props/candlehold1.png
+	specularmap	    models/mapobjects/light_props/candlehold1_s.png
+	bumpmap            models/mapobjects/light_props/candlehold1_nm.png
+}
+
+
+models/mapobjects/light_props/candleflame
+{
+	qer_editorImage		models/mapobjects/light_props/candleflame.png
+	xmap_surfaceLight	3000
+	xmap_lightSubdivide	16
+	xmap_lightImage		models/mapobjects/light_props/candleflame.png
+	xmap_lightRGB 1 1 0.8
+	twosided
+	noShadows
+	nonsolid
+//	deformvertexes autosprite2
+	{
+		stage		glowMap
+		map		models/mapobjects/light_props/candleflame.png
+		blend		add
+	}
+}
+
+models/mapobjects/light_props/chainlink
+{
+	qer_editorImage		models/mapobjects/light_props/chainlink.png
+	twosided
+	noShadows
+	nonsolid
+	{
+		stage		diffuseMap
+		map		models/mapobjects/light_props/chainlink.png
+		alphatest 0.5
+	}
+	normalMap		models/mapobjects/light_props/chainlink_nm.png
+	specularMap		models/mapobjects/light_props/chainlink.png
+}
+
+
+models/mapobjects/light_props/chandelier
+{
+    qer_editorimage    models/mapobjects/light_props/chandelier.png
+    
+	diffusemap         models/mapobjects/light_props/chandelier.png
+	normalMap		models/mapobjects/light_props/chandelier_nm.png
+	specularmap	    models/mapobjects/light_props/chandelier_s.png
+}
+
+models/mapobjects/light_props/torch
+{
+    qer_editorimage    models/mapobjects/light_props/torch.png
+    
+	diffusemap         models/mapobjects/light_props/torch.png
+	specularmap	    models/mapobjects/light_props/torch_s.png
+	bumpmap            models/mapobjects/light_props/torch_nm.png
+}
+
+models/mapobjects/light_props/torchhold1
+{
+    qer_editorimage    models/mapobjects/light_props/torchhold1.png
+    
+	diffusemap         models/mapobjects/light_props/torchhold1.png
+	specularmap	    models/mapobjects/light_props/torchhold1_s.png
+	bumpmap            models/mapobjects/light_props/NULL_nm.png
+}
+
+models/mapobjects/light_props/torchgr8
+{
+	qer_editorImage		models/mapobjects/light_props/torchgr8.png
+	twosided
+	noShadows
+	noselfshadow
+	nonsolid
+	translucent
+	{
+		stage		diffuseMap
+		map		models/mapobjects/light_props/torchgr8.png
+		alphatest 0.5
+	}
+	normalMap		textures/trak/light_props/NULL_nm.png
+	specularMap		textures/trak/light_props/torchgr8_s.png
+}

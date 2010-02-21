@@ -1,0 +1,120 @@
+models/weaves/protect/protect_air
+{
+	{
+		map models/weaves/protect/air.png
+        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
+        rgbGen identity
+	}
+}
+
+models/weaves/protect/protect_fire
+{
+	{
+		map models/weaves/protect/fire.png
+        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
+        rgbGen identity
+	}
+}
+
+models/weaves/protect/protect_earth
+{
+	{
+		map models/weaves/protect/earth.png
+        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
+        rgbGen identity
+	}
+}
+
+models/weaves/protect/protect_water
+{
+	{
+		map models/weaves/protect/water.png
+        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
+        rgbGen identity
+	}
+}
+
+models/weaves/slice/slice1
+{
+	{
+		map models/weaves/slice/slice1.png
+        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
+        rgbGen identity
+	}
+}
+
+models/weaves/fireball/trail
+{
+    {
+        map models/weaves/fireball/fireball_trail.png
+        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
+        rgbGen identity
+    }
+}
+
+////////////////////
+//Earthquake
+////////////////////
+models/weaves/earthquake_s/equakerock
+{
+    diffusemap		models/weaves/earthquake_s/earthquake_c.png
+    normalmap 		models/weaves/earthquake_s/earthquake_n.png
+    specularmap 	models/weaves/earthquake_s/earthquake_s.png
+}
+
+////////////////////
+//Fireball/Firedart
+////////////////////
+models/weaves/common/firetrail
+{
+    translucent
+    noShadows
+    twosided
+
+    {
+        blend GL_SRC_ALPHA, GL_ONE
+        map models/weaves/common/fireball_c.png
+            scroll 0.25*((time*15)%4) , 0
+        clamp
+    }
+}
+models/weaves/common/lavaball
+{
+    translucent
+    noShadows
+    //twosided
+    sort additive
+    {
+        blend GL_SRC_ALPHA, GL_ZERO
+        map models/weaves/common/fireball_c.png
+    }
+}
+
+////////////////////
+//Ice Shards
+////////////////////
+models/weaves/iceshards/ice
+{
+    translucent
+    {
+        maskcolor				
+        map makealpha(models/weaves/iceshards/iceshards_c.png)
+    }
+    {
+        blend GL_DST_ALPHA, GL_ONE_MINUS_SRC_ALPHA
+        map models/weaves/iceshards/iceshards_c.png
+    }
+}
+
+////////////////////
+//Airblast
+////////////////////
+models/weaves/airblast/airblast
+{
+    translucent
+    twosided
+    {
+        blend gl_src_alpha, gl_one_minus_src_alpha
+        map models/weaves/airblast/airblast_c.png
+    }
+}

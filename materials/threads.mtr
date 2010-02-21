@@ -1,0 +1,104 @@
+models/threads/fire1
+{
+	{
+		map models/threads/fire1.tga
+        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
+        rgbGen identity
+	}
+    
+    // sort postProcess
+	// {
+		// stage	heathazemap
+		// map		gfx/misc/raildisc_mono2_n.png
+		// clamp
+		// highQuality
+		// deformMagnitude 1
+		//tcMod stretch sawtooth 1.4 -10 0 .1
+		// centerScale 0.6 + (time + parm4) * 2.3 * (1 - parm0) , 0.6 + (time + parm4) * 2.3 * (1 - parm0)
+		// blend GL_ONE, GL_ZERO
+		// alphaTest 0.5
+		// maskDepth	// don't write to depth buffer
+		//			it would mess up depth buffer based post process effects
+    // }
+}
+
+models/threads/spirit1
+{
+	{
+	    map models/threads/spirit1.tga
+        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
+        rgbGen identity
+	}
+}
+
+models/threads/air1
+{
+	{
+		map models/threads/air1.tga
+        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
+        rgbGen identity
+	}   
+}
+
+models/threads/earth1
+{
+	{
+		map models/threads/earth1.tga
+        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
+        rgbGen identity
+	}   
+}
+
+models/threads/water1
+{
+	{
+		map models/threads/placeholder.png
+        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
+        rgbGen identity
+	}   
+}
+
+models/threads/earthfire1
+{
+	{
+		map models/threads/placeholder.png
+        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
+        rgbGen identity
+	}   
+}
+
+models/threads/airfire1
+{
+	{
+		map models/threads/placeholder.png
+        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
+        rgbGen identity
+	}   
+}
+
+models/threads/earthwater1
+{
+	{
+		map models/threads/placeholder.png
+        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
+        rgbGen identity
+	}   
+}
+
+models/threads/airwater1
+{
+	{
+		map models/threads/placeholder.png
+        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
+        rgbGen identity
+	}   
+}
+
+models/threads/none
+{
+	{
+		map gfx/empty.png
+        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
+        rgbGen identity
+	}   
+}
