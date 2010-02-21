@@ -1,0 +1,24 @@
+// shader used on debris
+models/debris/debrisbit
+{
+	cull none
+	{
+		map gfx/misc/tracer.tga
+		blend add
+	}
+}
+
+models/debris/plaster1
+{
+	{
+		map particles/plaster/plaster00.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
+	}
+}
+
+models/debris/wood
+{
+	diffuseMap		 models/debris/wood.png
+	//normalMap		 invertAlpha(textures/somefile.png)
+	//specularMap	 	 textures/somefile.png
+}
