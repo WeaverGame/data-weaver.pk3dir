@@ -20,12 +20,11 @@ models/mapobjects/light_props/candlehold1
 models/mapobjects/light_props/candleflame
 {
 	qer_editorImage		models/mapobjects/light_props/candleflame.png
-	xmap_surfaceLight	3000
+	xmap_surfaceLight	500
 	xmap_lightSubdivide	16
 	xmap_lightImage		models/mapobjects/light_props/candleflame.png
-	xmap_lightRGB 1 1 0.8
+	xmap_lightRGB 1 0.9 0.7
 	twosided
-	noShadows
 	nonsolid
 //	deformvertexes autosprite2
 	{
@@ -54,6 +53,7 @@ models/mapobjects/light_props/chainlink
 models/mapobjects/light_props/chandelier
 {
     qer_editorimage    models/mapobjects/light_props/chandelier.png
+	noShadows
     
 	diffusemap         models/mapobjects/light_props/chandelier.png
 	normalMap		models/mapobjects/light_props/chandelier_nm.png
@@ -63,6 +63,7 @@ models/mapobjects/light_props/chandelier
 models/mapobjects/light_props/torch
 {
     qer_editorimage    models/mapobjects/light_props/torch.png
+	noshadows
     
 	diffusemap         models/mapobjects/light_props/torch.png
 	specularmap	    models/mapobjects/light_props/torch_s.png
@@ -72,6 +73,7 @@ models/mapobjects/light_props/torch
 models/mapobjects/light_props/torchhold1
 {
     qer_editorimage    models/mapobjects/light_props/torchhold1.png
+	noShadows
     
 	diffusemap         models/mapobjects/light_props/torchhold1.png
 	specularmap	    models/mapobjects/light_props/torchhold1_s.png
@@ -83,9 +85,8 @@ models/mapobjects/light_props/torchgr8
 	qer_editorImage		models/mapobjects/light_props/torchgr8.png
 	twosided
 	noShadows
-	noselfshadow
-	nonsolid
-	translucent
+	noSelfShadow
+
 	{
 		stage		diffuseMap
 		map		models/mapobjects/light_props/torchgr8.png
