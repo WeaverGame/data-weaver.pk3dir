@@ -1,13 +1,6 @@
 ////////////////////
 //Earthquake
 ////////////////////
-models/weaves/earthquake_s/equakerock
-{
-    diffusemap		models/weaves/earthquake_s/earthquake_c.png
-    normalmap 		models/weaves/earthquake_s/earthquake_n.png
-    specularmap 	models/weaves/earthquake_s/earthquake_s.png
-}
-
 weave_effects/earthquake/glow
 {
 	lightFalloffImage	makeintensity(lights/squarelight1c.png)
@@ -27,14 +20,14 @@ weave_effects/earthquake/ripple
 {
 	twoSided
 	//deformVertexes wave 100 sin 0 .5 0 2.4
-	translucent
+	//translucent
 	sort postProcess
 	{
 		stage	heathazemap
 		map		gfx/misc/raildisc_mono2_n.png
 		clamp
 		//highQuality
-		deformMagnitude 2
+		deformMagnitude 4
 		//tcMod stretch sawtooth 1.4 -10 0 .1
 		//centerScale 0.8 + time + parm4 , 0.8 + time + parm4
 		blend GL_ONE, GL_ZERO
