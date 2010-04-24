@@ -9,7 +9,7 @@ joints {
 }
 
 mesh {
-	shader "weave_effects/earthquake/ripple"
+	shader "models/entities/shield_info"
 
 	numverts 4
 	vert 0 ( 0.0 0.0 ) 0 1

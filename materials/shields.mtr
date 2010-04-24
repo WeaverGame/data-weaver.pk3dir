@@ -1,0 +1,20 @@
+textures/shields/shield
+{
+	qer_editorimage    models/entities/shield.png
+	
+	{
+		map         models/entities/shield.png
+		blend blend
+	}	
+}
+
+models/entities/shield_info
+{
+	qer_editorimage    models/entities/shield_info.png
+	
+	{
+		map         models/entities/shield_info.png
+		blend blend
+		//blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+	}
+}
