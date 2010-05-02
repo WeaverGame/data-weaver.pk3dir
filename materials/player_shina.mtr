@@ -314,7 +314,12 @@ models/players/shina/hair
 		stage diffuseMap
 		map models/players/shina/hair.png
 	}	
-	specularMap models/players/shina/skin_s.png
+	specularMap models/players/shina/hair_s.png
+	{
+		stage	reflectionMap
+		blend	GL_DST_COLOR, GL_ONE
+		cubeMap	_autocube
+	}
 }
 
 models/players/shina/hair_transp
