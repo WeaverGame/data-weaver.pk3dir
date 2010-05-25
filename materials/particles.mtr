@@ -1,4 +1,82 @@
-
+particles/fire
+{
+	qer_editorImage	particles/fire/fire0040
+	qer_trans	1
+	twosided
+	nonsolid
+	nomarks
+//	deformvertexes autoSprite2
+	{
+		if((time * 14) % 14 == 0)
+		map particles/fire/fire0040
+		blend blend
+	}
+	{
+		if((time * 14) % 14 == 1)
+		map particles/fire/fire0041
+		blend blend
+	}
+	{
+		if((time * 14) % 14 == 2)
+		map particles/fire/fire0042
+		blend blend
+	}
+	{
+		if((time * 14) % 14 == 3)
+		map particles/fire/fire0043
+		blend blend
+	}
+	{
+		if((time * 14) % 14 == 4)
+		map particles/fire/fire0044
+		blend blend
+	}
+	{
+		if((time * 14) % 14 == 5)
+		map particles/fire/fire0045
+		blend blend
+	}
+	{
+		if((time * 14) % 14 == 6)
+		map particles/fire/fire0046
+		blend blend
+	}
+	{
+		if((time * 14) % 14 == 7)
+		map particles/fire/fire0047
+		blend blend
+	}
+	{
+		if((time * 14) % 14 == 8)
+		map particles/fire/fire0048
+		blend blend
+	}
+	{
+		if((time * 14) % 14 == 9)
+		map particles/fire/fire0049
+		blend blend
+	}
+	{
+		if((time * 14) % 14 == 10)
+		map particles/fire/fire0050
+		blend blend
+	}
+	{
+		if((time * 14) % 14 == 11)
+		map particles/fire/fire0051
+		blend blend
+	}
+	{
+		if((time * 14) % 14 == 12)
+		map particles/fire/fire0052
+		blend blend
+	}
+	{
+		if((time * 14) % 14 == 13)
+		map particles/fire/fire0053
+		blend blend
+	}
+}
 
 particles/flare2
 {

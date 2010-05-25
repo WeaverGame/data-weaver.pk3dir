@@ -1,208 +1,172 @@
-
 models/players/shina/cloth
 {
 	{ 
 		if(parm4 <= 0.5)
-		stage diffuseMap
-		map models/players/shina/cloth.png
+		stage		diffuseMap
+		map		models/players/shina/cloth.png
 	}
-
-	bumpMap models/players/shina/cloth_n.png
-	specularMap models/players/shina/cloth_s.png
+	bumpMap			models/players/shina/cloth_n.png
+	specularMap		models/players/shina/cloth_s.png
 }
 
 models/players/shina/cloth_bright
 {
 	{ 
 		if(parm4 <= 0.5)
-		stage diffuseMap
-		map models/players/shina/cloth.png
+		stage		diffuseMap
+		map		models/players/shina/cloth.png
 	}
-
-	bumpMap models/players/shina/cloth_n.png
-	specularMap models/players/shina/cloth_s.png
-	{
-		map models/players/shina/cloth_bright.png
-		blend add
-	}
+	bumpMap			models/players/shina/cloth_n.png
+	specularMap		models/players/shina/cloth_s.png
+	glowMap			models/players/shina/cloth_bright.png
 }
 
 models/players/shina/cloth_red
 {
 	{ 
 		if(parm4 <= 0.5)
-		stage diffuseMap
-		map models/players/shina/cloth_red.png
+		stage		diffuseMap
+		map		models/players/shina/cloth_red.png
 	}
-
-	bumpMap models/players/shina/cloth_n.png
-	specularMap models/players/shina/cloth_s.png
-	{
-		map models/players/shina/cloth_red_bright.png
-		blend add
-	}
-
+	bumpMap			models/players/shina/cloth_n.png
+	specularMap		models/players/shina/cloth_s.png
+	glowMap			models/players/shina/cloth_red_bright.png
 }
 models/players/shina/cloth_blue
 {
 	{ 
 		if(parm4 <= 0.5)
-		stage diffuseMap
-		map models/players/shina/cloth_blue.png
+		stage		diffuseMap
+		map		models/players/shina/cloth_blue.png
 	}
-
-	bumpMap models/players/shina/cloth_n.png
-	specularMap models/players/shina/cloth_s.png
-	{
-		map models/players/shina/cloth_blue_bright.png
-		blend add
-	}
-
+	bumpMap			models/players/shina/cloth_n.png
+	specularMap		models/players/shina/cloth_s.png
+	glowMap			models/players/shina/cloth_blue_bright.png
 }
 
 models/players/shina/cloth_head
 {
 	{
 		if(parm4 <= 0.5)
-		stage diffuseMap
-		map models/players/shina/cloth_head.png
+		stage		diffuseMap
+		map		models/players/shina/cloth_head.png
 	}
-	bumpMap models/players/shina/cloth_head_n.png
-	specularMap models/players/shina/cloth_head_s.png
+	bumpMap			models/players/shina/cloth_head_n.png
+	specularMap		models/players/shina/cloth_head_s.png
 }
 
 models/players/shina/cloth_head_bright
 {
 	{
 		if(parm4 <= 0.5)
-		stage diffuseMap
-		map models/players/shina/cloth_head.png
+		stage		diffuseMap
+		map		models/players/shina/cloth_head.png
 	}
-	bumpMap models/players/shina/cloth_head_n.png
-	specularMap models/players/shina/cloth_head_s.png
-	{
-		map models/players/shina/cloth_head_bright.png
-		blend add
-	}
+	bumpMap			models/players/shina/cloth_head_n.png
+	specularMap		models/players/shina/cloth_head_s.png
+	glowMap			models/players/shina/cloth_head_bright.png
 }
 
 models/players/shina/cloth_head_red
 {
 	{
 		if(parm4 <= 0.5)
-		stage diffuseMap
-		map models/players/shina/cloth_head_red.png
+		stage		diffuseMap
+		map		models/players/shina/cloth_head_red.png
 	}
-	bumpMap models/players/shina/cloth_head_n.png
-	specularMap models/players/shina/cloth_head_s.png
+	bumpMap			models/players/shina/cloth_head_n.png
+	specularMap		models/players/shina/cloth_head_s.png
 }
 
 models/players/shina/cloth_head_blue
 {
 	{
 		if(parm4 <= 0.5)
-		stage diffuseMap
-		map models/players/shina/cloth_head_blue.png
+		stage		diffuseMap
+		map		models/players/shina/cloth_head_blue.png
 	}
-	bumpMap models/players/shina/cloth_head_n.png
-	specularMap models/players/shina/cloth_head_s.png
+	bumpMap			models/players/shina/cloth_head_n.png
+	specularMap		models/players/shina/cloth_head_s.png
 }
 models/players/shina/cloth_middle
 {
 	{
 		if(parm4 <= 0.5)
-		stage diffuseMap
-		map models/players/shina/cloth_middle.png
+		stage		diffuseMap
+		map		models/players/shina/cloth_middle.png
 	}
-
-	bumpMap models/players/shina/cloth_middle_n.png
-	specularMap models/players/shina/cloth_middle_s.png
+	bumpMap			models/players/shina/cloth_middle_n.png
+	specularMap		models/players/shina/cloth_middle_s.png
 }
 
 models/players/shina/cloth_middle_bright
 {
 	{
 		if(parm4 <= 0.5)
-		stage diffuseMap
-		map models/players/shina/cloth_middle.png
+		stage		diffuseMap
+		map		models/players/shina/cloth_middle.png
 	}
-
-	bumpMap models/players/shina/cloth_middle_n.png
-	specularMap models/players/shina/cloth_middle_s.png
-	{
-		map models/players/shina/cloth_middle_bright.png
-		blend add
-	}
+	bumpMap			models/players/shina/cloth_middle_n.png
+	specularMap		models/players/shina/cloth_middle_s.png
+	glowMap			models/players/shina/cloth_middle_bright.png
 }
 
 models/players/shina/cloth_middle_red
 {
 	{
 		if(parm4 <= 0.5)
-		stage diffuseMap
-		map models/players/shina/cloth_middle_red.png
+		stage		diffuseMap
+		map		models/players/shina/cloth_middle_red.png
 	}
-
-	bumpMap models/players/shina/cloth_middle_n.png
-	specularMap models/players/shina/cloth_middle_s.png
-	{
-		map models/players/shina/cloth_middle_red_bright.png
-		blend add
-	}
+	bumpMap			models/players/shina/cloth_middle_n.png
+	specularMap		models/players/shina/cloth_middle_s.png
+	glowMap			models/players/shina/cloth_middle_red_bright.png
 }
 
 models/players/shina/cloth_middle_blue
 {
 	{
 		if(parm4 <= 0.5)
-		stage diffuseMap
-		map models/players/shina/cloth_middle_blue.png
+		stage		diffuseMap
+		map		models/players/shina/cloth_middle_blue.png
 	}
-
-	bumpMap models/players/shina/cloth_middle_n.png
-	specularMap models/players/shina/cloth_middle_s.png
-	{
-		map models/players/shina/cloth_middle_blue_bright.png
-		blend add
-	}
+	bumpMap			models/players/shina/cloth_middle_n.png
+	specularMap		models/players/shina/cloth_middle_s.png
+	glowMap			models/players/shina/cloth_middle_blue_bright.png
 }
 
 models/players/shina/cloth_lower
 {
 	{
 		if(parm4 <= 0.5)
-		stage diffuseMap
-		map models/players/shina/cloth_lower.png
+		stage		diffuseMap
+		map		models/players/shina/cloth_lower.png
 	}
-	bumpMap models/players/shina/cloth_lower_n.png
-	specularMap models/players/shina/cloth_lower_s.png
+	bumpMap			models/players/shina/cloth_lower_n.png
+	specularMap		models/players/shina/cloth_lower_s.png
 }
 
 models/players/shina/cloth_lower_bright
 {
 	{
 		if(parm4 <= 0.5)
-		stage diffuseMap
-		map models/players/shina/cloth_lower.png
+		stage		diffuseMap
+		map		models/players/shina/cloth_lower.png
 	}
-	bumpMap models/players/shina/cloth_lower_n.png
-	specularMap models/players/shina/cloth_lower_s.png
-	{
-		map models/players/shina/cloth_lower_bright.png
-		blend add
-	}
+	bumpMap			models/players/shina/cloth_lower_n.png
+	specularMap		models/players/shina/cloth_lower_s.png
+	glowMap			models/players/shina/cloth_lower_bright.png
 }
 
 models/players/shina/cloth_upper
 {
 	{
 		if(parm4 <= 0.5)
-		stage diffuseMap
-		map models/players/shina/cloth_upper.png
+		stage		diffuseMap
+		map		models/players/shina/cloth_upper.png
 	}
-
-	bumpMap models/players/shina/cloth_upper_n.png
-	specularMap models/players/shina/cloth_upper_s.png
+	bumpMap			models/players/shina/cloth_upper_n.png
+	specularMap		models/players/shina/cloth_upper_s.png
 }
 
 
@@ -210,19 +174,16 @@ models/players/shina/accessecoires
 {
 	{
 		if(parm4 <= 0.5)
-		stage diffuseMap
-		map models/players/shina/accessecoires.png
+		stage		diffuseMap
+		map		models/players/shina/accessecoires.png
 	}
-
 	{
 		if(parm4 <= 0.5)
-		map models/players/shina/accessecoires_glow.png
-
-		blend blend
-		alpha 0.6 + 0.3 * ( 1.0 -  (   (sinTable[time * .8] + 1.0) / 2.0 ) )
+		map		models/players/shina/accessecoires_glow.png
+		blend		blend
+		alpha		0.6 + 0.3 * ( 1.0 -  (   (sinTable[time * .8] + 1.0) / 2.0 ) )
 	}
-
-	specularMap models/players/shina/accessecoires_s.png
+	specularMap		models/players/shina/accessecoires_s.png
 
 }
 
@@ -230,96 +191,70 @@ models/players/shina/skin
 {
 	{
 		if(parm4 <= 0.5)
-		stage diffuseMap
-		map models/players/shina/skin.png
+		stage		diffuseMap
+		map		models/players/shina/skin.png
 	}
-
-
-	bumpMap models/players/shina/skin_n.png
-	specularMap models/players/shina/skin_s.png
+	bumpMap			models/players/shina/skin_n.png
+	specularMap		models/players/shina/skin_s.png
 }
 
 models/players/shina/skin_red
 {
 	{
 		if(parm4 <= 0.5)
-		stage diffuseMap
-		map models/players/shina/skin.png
+		stage		diffuseMap
+		map		models/players/shina/skin.png
 	}
-
-
-	bumpMap models/players/shina/skin_n.png
-	specularMap models/players/shina/skin_s.png
-	{
-		map models/players/shina/skin_red_bright.png
-		blend add
-	}
+	bumpMap			models/players/shina/skin_n.png
+	specularMap		models/players/shina/skin_s.png
+	glowMap			models/players/shina/skin_red_bright.png
 }
 
 models/players/shina/skin_blue
 {
 	{
 		if(parm4 <= 0.5)
-		stage diffuseMap
-		map models/players/shina/skin.png
+		stage		diffuseMap
+		map		models/players/shina/skin.png
 	}
-
-
-	bumpMap models/players/shina/skin_n.png
-	specularMap models/players/shina/skin_s.png
-	{
-		map models/players/shina/skin_blue_bright.png
-		blend add
-	}
+	bumpMap			models/players/shina/skin_n.png
+	specularMap		models/players/shina/skin_s.png
+	glowMap			models/players/shina/skin_blue_bright.png
 }
 
 models/players/shina/skin_bright
 {
 	{
 		if(parm4 <= 0.5)
-		stage diffuseMap
-		map models/players/shina/skin.png
+		stage		diffuseMap
+		map		models/players/shina/skin.png
 	}
-
-
-	bumpMap models/players/shina/skin_n.png
-	specularMap models/players/shina/skin_s.png
-	{
-		map models/players/shina/skin_bright.png
-		blend add
-	}
+	bumpMap			models/players/shina/skin_n.png
+	specularMap		models/players/shina/skin_s.png
+	glowMap			models/players/shina/skin_bright.png
 }
 
 models/players/shina/skin_red
 {
 	{
 		if(parm4 <= 0.5)
-		stage diffuseMap
-		map models/players/shina/skin.png
+		stage		diffuseMap
+		map		models/players/shina/skin.png
 	}
-
-
-	bumpMap models/players/shina/skin_n.png
-	specularMap models/players/shina/skin_s.png
-	{
-		map models/players/shina/skin_red_bright.png
-		blend add
-	}
+	bumpMap			models/players/shina/skin_n.png
+	specularMap		models/players/shina/skin_s.png
+	glowMap			models/players/shina/skin_red_bright.png
 }
 
 models/players/shina/hair
 {
 	{
 		if(parm4 <= 0.5)
-		stage diffuseMap
-		map models/players/shina/hair.png
+		stage		diffuseMap
+		map		models/players/shina/hair.png
 	}	
-	specularMap models/players/shina/hair_s.png
-	{
-		stage	reflectionMap
-		blend	GL_DST_COLOR, GL_ONE
-		cubeMap	_autocube
-	}
+	specularMap		models/players/shina/hair_s.png
+	reflectionMap		_autocube
 }
 
 models/players/shina/hair_transp
@@ -328,8 +263,8 @@ models/players/shina/hair_transp
 	twosided
 	{
 		if(parm4 <= 0.5)
-		blend blend
-		map models/players/shina/hair_transp.png	
+		blend		blend
+		map		models/players/shina/hair_transp.png	
 	}
 }
 
@@ -340,9 +275,9 @@ models/players/shina/eyelash
 	twosided
 	{
 		if(parm4 <= 0.5)
-		stage diffuseMap
-		map models/players/shina/hair_transp.png
-		alphaTest 0.5
+		stage		diffuseMap
+		map		models/players/shina/hair_transp.png
+		alphaTest	0.5
 	}
 }
 
