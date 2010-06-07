@@ -58,10 +58,9 @@ powerups/battleSuit
 		blend	blend
 	}
 	specularMap	gfx/2d/yellow
-	normalMap	_flat
 	reflectionMap	_autocube
+	normalMap	_flat
 	{
-		stage	glowMap
 		map	gfx/2d/yellow
 		rgbGen	wave sin 1 0.5 1 0.1
 		blend	add
