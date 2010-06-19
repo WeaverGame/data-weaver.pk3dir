@@ -52,7 +52,7 @@ models/threads/earth1
 models/threads/water1
 {
 	{
-		map models/threads/placeholder.png
+		map models/threads/water1.tga
         blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
         rgbGen identity
 	}   
