@@ -253,7 +253,7 @@ models/players/shina/hair
 		stage		diffuseMap
 		map		models/players/shina/hair.png
 	}	
-	specularMap		models/players/shina/hair_s.png
+	specularMap		models/players/shina/hair.png
 	bumpMap			heightmap(models/players/shina/hair_s.png)
 }
 

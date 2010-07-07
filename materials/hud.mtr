@@ -35,6 +35,16 @@ lagometer_lag
 	
 }
 
+lagometer2
+{
+	nopicmip
+	{
+		clampmap gfx/misc/stripes
+		rgbGen vertex
+		blend blend
+	}
+}
+
 // blinked on top of lagometer when connection is interrupted
 disconnected
 {
