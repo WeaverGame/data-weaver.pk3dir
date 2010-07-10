@@ -58,7 +58,7 @@ powerups/battleSuit
 		blend	blend
 	}
 	specularMap	gfx/2d/yellow
-	reflectionMapBlended_autocube
+	reflectionMapBlended	_autocube
 	normalMap	_flat
 	{
 		map	gfx/2d/yellow
