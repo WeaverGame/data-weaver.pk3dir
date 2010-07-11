@@ -67,10 +67,7 @@ models/weaves/earthquake_s/equakerock
 ////////////////////
 models/weaves/common/firetrail
 {
-    translucent
-    noShadows
     twosided
-
     {
         blend GL_SRC_ALPHA, GL_ONE
         map models/weaves/common/fireball_c.png
@@ -80,9 +77,6 @@ models/weaves/common/firetrail
 }
 models/weaves/common/lavaball
 {
-    translucent
-    noShadows
-    //twosided
     sort additive
     {
         blend GL_SRC_ALPHA, GL_ZERO
@@ -95,11 +89,6 @@ models/weaves/common/lavaball
 ////////////////////
 models/weaves/iceshards/ice
 {
-    translucent
-    {
-        maskcolor				
-        map makealpha(models/weaves/iceshards/iceshards_c.png)
-    }
     {
         blend GL_DST_ALPHA, GL_ONE_MINUS_SRC_ALPHA
         map models/weaves/iceshards/iceshards_c.png
@@ -111,10 +100,19 @@ models/weaves/iceshards/ice
 ////////////////////
 models/weaves/airblast/airblast
 {
-    translucent
-    twosided
+    twoSided
+    noMipMaps
+    sort postProcess
     {
-        blend gl_src_alpha, gl_one_minus_src_alpha
-        map models/weaves/airblast/airblast_c.png
+        blend	GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA
+        map		models/weaves/airblast/airblast_c.png
+        clamp
+    }
+    {
+        stage	heathazemap
+        map		models/weaves/airblast/round_normal.png
+        clamp
+        deformMagnitude	10.0
+        blend	blend
     }
 }
