@@ -1,0 +1,25 @@
+models/players/fallen/fallen_red
+{
+	nopicmip
+	{ 
+		if(parm4 <= 0.5)
+		stage		diffuseMap
+		map			models/players/fallen/fallen_red.tga
+	}
+	specularMap		models/players/fallen/fallen_s.tga
+	bumpMap			models/players/fallen/fallen_n.tga
+	//glowMap		models/players/fallen/fallen_red_bright.png
+}
+models/players/fallen/fallen_blue
+{
+	//nopicmip
+	nomipmaps
+	{ 
+		if(parm4 <= 0.5)
+		stage		diffuseMap
+		map			models/players/fallen/fallen_blue.tga
+	}
+	specularMap		models/players/fallen/fallen_s.tga
+	bumpMap			models/players/fallen/fallen_n.tga
+	//glowMap		models/players/shina/cloth_blue_bright.png
+}
