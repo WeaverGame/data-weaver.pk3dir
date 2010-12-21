@@ -13,7 +13,7 @@
 // define portals, separating the world into areas
 textures/common/areaportal
 {
-	qer_editorimage	textures/common/areaportal.tga
+	qer_editorimage	textures/common/areaportal.png
 	qer_trans 0.50
 	
 	nonsolid
@@ -50,7 +50,7 @@ textures/common/skip
 
 textures/editor/visportal
 {
-	qer_editorimage	textures/common/visportal.tga
+	qer_editorimage	textures/common/visportal.png
 	qer_trans 0.5
 	
 	nonsolid
@@ -64,7 +64,7 @@ textures/editor/visportal
 // bot specific "do not enter" brush
 textures/common/donotenter
 {
-	qer_editorimage	textures/common/donotenter.tga
+	qer_editorimage	textures/common/donotenter.png
 	qer_trans 0.50
 	
 	nonsolid
@@ -75,7 +75,7 @@ textures/common/donotenter
 // bot specific cluster portal
 textures/common/clusterportal
 {
-	qer_editorimage	textures/common/clusterportal.tga
+	qer_editorimage	textures/common/clusterportal.png
 	qer_trans 0.50
 	
 	nodraw
@@ -88,7 +88,7 @@ textures/common/clusterportal
 // without any extra surface drawing
 textures/common/mirror1
 {
-	qer_editorimage textures/common/qer_mirror.tga
+	qer_editorimage textures/common/qer_mirror.png
 	
 	mirror
 	nolightmap
@@ -103,7 +103,7 @@ textures/common/mirror1
 
 textures/common/mirror2
 {
-	qer_editorimage textures/common/qer_mirror.tga
+	qer_editorimage textures/common/qer_mirror.png
 	
 	nolightmap
 	mirror
@@ -118,7 +118,7 @@ textures/common/mirror2
 
 textures/common/mirror3
 {
-	qer_editorimage textures/common/qer_mirror.tga
+	qer_editorimage textures/common/qer_mirror.png
 	
 	nolightmap
 	mirror
@@ -140,7 +140,7 @@ textures/common/mirror3
 
 textures/common/portal1
 {
-	qer_editorimage textures/common/qer_portal.tga
+	qer_editorimage textures/common/qer_portal.png
 	
 	nolightmap
 	portal 512 // portal distance for fading, default is 256
@@ -156,7 +156,7 @@ textures/common/portal1
 
 textures/common/portalNoDistanceFade
 {
-	qer_editorimage textures/common/qer_portal.tga
+	qer_editorimage textures/common/qer_portal.png
 	
 	nolightmap
 	portal 99999
@@ -183,7 +183,7 @@ textures/common/portalNoDistanceFade
 // caulk will save some rendering time and data space.
 textures/common/caulk
 {
-	qer_editorimage textures/common/caulk.tga
+	qer_editorimage textures/common/caulk.png
 //	qer_trans 0.5
 	
 	noshadows
@@ -194,7 +194,7 @@ textures/common/caulk
 // interaction with anything
 textures/common/nodraw
 {
-	qer_editorimage textures/common/nodraw.tga
+	qer_editorimage textures/common/nodraw.png
 	qer_trans 0.5
 
 	nonsolid
@@ -204,7 +204,7 @@ textures/common/nodraw
 // nodraw solid is used for surfaces that are not visible but are used to collide with
 textures/common/nodrawsolid
 {
-	qer_editorimage textures/common/nodrawsolid.tga
+	qer_editorimage textures/common/nodrawsolid.png
 	qer_trans 0.5
 	
 	noshadows
@@ -212,7 +212,7 @@ textures/common/nodrawsolid
 
 textures/common/hint
 {
-	qer_editorimage textures/common/hint.tga
+	qer_editorimage textures/common/hint.png
 	qer_nocarve
 	qer_trans 0.30
 	
@@ -230,7 +230,7 @@ textures/common/hint
 // This is an invisible brush that should cast a shadow
 textures/common/shadow
 {
-	qer_editorimage textures/common/shadow.tga
+	qer_editorimage textures/common/shadow.png
 	qer_trans 0.5
 	
 	nonsolid
@@ -239,7 +239,7 @@ textures/common/shadow
 
 textures/common/shadow2
 {
-	qer_editorimage textures/common/shadow.tga
+	qer_editorimage textures/common/shadow.png
 	qer_trans 0.5
 	
 	nonsolid
@@ -253,7 +253,7 @@ textures/common/shadow2
 
 textures/common/trigger
 {
-	qer_editorimage textures/common/trigger.tga
+	qer_editorimage textures/common/trigger.png
 	qer_nocarve		// don't let an awry CSG operation cut it up
 	qer_trans 0.5
 	
@@ -263,7 +263,7 @@ textures/common/trigger
 
 textures/common/trigmulti
 {
-	qer_editorimage textures/common/trigger.tga
+	qer_editorimage textures/common/trigger.png
 	qer_nocarve
 	qer_trans 0.5
 	
@@ -273,7 +273,7 @@ textures/common/trigmulti
 
 textures/common/trigonce
 {
-	qer_editorimage textures/common/trigger.tga
+	qer_editorimage textures/common/trigger.png
 	qer_nocarve
 	qer_trans 0.5
 	
@@ -283,7 +283,7 @@ textures/common/trigonce
 
 textures/common/trigtimer
 {
-	qer_editorimage textures/common/trigger.tga
+	qer_editorimage textures/common/trigger.png
 	qer_nocarve
 	qer_trans 0.5
 	
@@ -293,7 +293,7 @@ textures/common/trigtimer
 
 textures/common/trigrelay
 {
-	qer_editorimage textures/common/trigger.tga
+	qer_editorimage textures/common/trigger.png
 	qer_nocarve
 	qer_trans 0.5
 	
@@ -303,7 +303,7 @@ textures/common/trigrelay
 
 textures/common/trighurt
 {
-	qer_editorimage textures/common/trigger.tga
+	qer_editorimage textures/common/trigger.png
 	qer_nocarve
 	qer_trans 0.5
 	
@@ -313,7 +313,7 @@ textures/common/trighurt
 
 textures/common/trigfade
 {
-	qer_editorimage textures/common/trigger.tga
+	qer_editorimage textures/common/trigger.png
 	qer_nocarve
 	qer_trans 0.5
 	
@@ -323,7 +323,7 @@ textures/common/trigfade
 
 textures/common/triggui
 {
-	qer_editorimage textures/common/trigger.tga
+	qer_editorimage textures/common/trigger.png
 	qer_nocarve
 	qer_trans 0.5
 	
@@ -333,7 +333,7 @@ textures/common/triggui
 
 textures/common/trigair
 {
-	qer_editorimage textures/common/trigger.tga
+	qer_editorimage textures/common/trigger.png
 	qer_nocarve
 	qer_trans 0.5
 	
@@ -343,7 +343,7 @@ textures/common/trigair
 
 textures/common/trigentityname
 {
-	qer_editorimage textures/common/trigger.tga
+	qer_editorimage textures/common/trigger.png
 	qer_nocarve
 	qer_trans 0.5
 	
@@ -353,7 +353,7 @@ textures/common/trigentityname
 
 textures/common/trigentityname_once
 {
-	qer_editorimage textures/common/trigger.tga
+	qer_editorimage textures/common/trigger.png
 	qer_nocarve
 	qer_trans 0.5
 	
@@ -363,7 +363,7 @@ textures/common/trigentityname_once
 
 textures/common/trigflashlight
 {
-	qer_editorimage textures/common/trigger.tga
+	qer_editorimage textures/common/trigger.png
 	qer_nocarve
 	qer_trans 0.5
 	
@@ -373,7 +373,7 @@ textures/common/trigflashlight
 
 textures/common/trigshotclip
 {
-	qer_editorimage textures/common/trigger.tga
+	qer_editorimage textures/common/trigger.png
 	qer_nocarve
 	qer_trans 0.5
 	
@@ -388,7 +388,7 @@ textures/common/trigshotclip
 // a clip brush is solid to players and monsters, but not missiles
 textures/common/clip
 {
-	qer_editorimage textures/common/clip.tga
+	qer_editorimage textures/common/clip.png
 	qer_trans 0.5
 	
 	noimpact
@@ -401,7 +401,7 @@ textures/common/clip
 // 
 textures/common/clip_plusmovables
 {
-	qer_editorimage textures/common/clipplus.tga
+	qer_editorimage textures/common/clipplus.png
 	qer_trans 0.5
 	
 	noimpact
@@ -415,7 +415,7 @@ textures/common/clip_plusmovables
 // full clip is just like a solid brush, clipping missiles, monsters, and players
 textures/common/full_clip
 {
-	qer_editorimage textures/common/full_clip.tga
+	qer_editorimage textures/common/full_clip.png
 	qer_trans 0.5
 	
 	monsterclip
@@ -427,7 +427,7 @@ textures/common/full_clip
 // a player clip brush is solid to players only, not monsters or anything else
 textures/common/player_clip
 {
-	qer_editorimage textures/common/clip.tga
+	qer_editorimage textures/common/clip.png
 	qer_trans 0.5
 	
 	noimpact
@@ -439,7 +439,7 @@ textures/common/player_clip
 // a monster clip brush is solid to monsters only
 textures/common/monster_clip
 {
-	qer_editorimage textures/common/monster_clip.tga
+	qer_editorimage textures/common/monster_clip.png
 	qer_trans 0.5
 	
 	nonsolid
@@ -450,7 +450,7 @@ textures/common/monster_clip
 // a moveable clip brush is solid only to moveables like rigid bodies and articulated figures
 textures/common/moveable_clip
 {
-	qer_editorimage textures/common/moveable_clip.tga
+	qer_editorimage textures/common/moveable_clip.png
 	qer_trans 0.5
 	
 	nonsolid
@@ -461,7 +461,7 @@ textures/common/moveable_clip
 // a IK clip brush is solid only to IK collision testing
 textures/common/ik_clip
 {
-	qer_editorimage textures/common/ikclip.tga
+	qer_editorimage textures/common/ikclip.png
 	qer_trans 0.5
 	
 	nonsolid
@@ -471,7 +471,7 @@ textures/common/ik_clip
 
 textures/common/moveableclipmodel
 {
-	qer_editorimage textures/common/clip.tga
+	qer_editorimage textures/common/clip.png
 	qer_trans 0.5
 	
 	noshadows
@@ -481,7 +481,7 @@ textures/common/moveableclipmodel
 // be used for collision detection instead of the visual surface(s)
 textures/common/collision
 {
-	qer_editorimage textures/common/collision.tga
+	qer_editorimage textures/common/collision.png
 	qer_trans 0.5
 	
 	noshadows
@@ -493,7 +493,7 @@ textures/common/collision
 // damage.  Put a thin sliver brush over jump pads, etc.
 textures/common/cushion
 {
-	qer_editorimage textures/common/cushion.tga
+	qer_editorimage textures/common/cushion.png
 	qer_trans 0.5
 	
 	nonsolid
@@ -506,7 +506,7 @@ textures/common/cushion
 // used as a thin sliver brush over floors to cause sliding
 textures/common/slick
 {
-	qer_editorimage textures/common/slick.tga
+	qer_editorimage textures/common/slick.png
 	qer_trans 0.5
 	
 	slick
@@ -518,7 +518,7 @@ textures/common/slick
 // from cluttering up death pits
 textures/common/nodrop
 {
-	qer_editorimage textures/common/nodrop.tga
+	qer_editorimage textures/common/nodrop.png
 	qer_nocarve
 	qer_trans 0.5
 	
@@ -532,7 +532,7 @@ textures/common/nodrop
 // just dissapear into, instead of exploding on
 textures/common/noimpact
 {
-	qer_editorimage textures/common/noimpact.tga
+	qer_editorimage textures/common/noimpact.png
 	qer_trans 0.5
 	
 	noimpact
@@ -541,7 +541,7 @@ textures/common/noimpact
 
 textures/common/missileclip
 {
-	qer_editorimage textures/common/missileclip.tga
+	qer_editorimage textures/common/missileclip.png
 	qer_trans 0.40
 	
 	nodamage
@@ -551,7 +551,7 @@ textures/common/missileclip
 
 textures/common/weapclip
 {
-	qer_editorimage textures/common/weapclip.tga
+	qer_editorimage textures/common/weapclip.png
 	qer_trans 0.40
 	
 	noshadows
@@ -559,7 +559,7 @@ textures/common/weapclip
 
 textures/common/metalclip
 {
-	qer_editorimage textures/common/metalclip.tga
+	qer_editorimage textures/common/metalclip.png
 	qer_trans 0.40
 	
 	nonsolid
@@ -571,7 +571,7 @@ textures/common/metalclip
 
 textures/common/botclip
 {
-	qer_editorimage textures/common/botclip.tga
+	qer_editorimage textures/common/botclip.png
 	qer_trans 0.40
 	
 	nonsolid
@@ -584,7 +584,7 @@ textures/common/botclip
 // players can climb ladder brushes
 textures/common/ladder
 {
-	qer_editorimage textures/common/ladder.tga
+	qer_editorimage textures/common/ladder.png
 	qer_trans 0.5
 	
 	nonsolid
@@ -603,7 +603,7 @@ textures/common/ladder
 
 textures/common/origin
 {
-	qer_editorimage textures/common/origin.tga
+	qer_editorimage textures/common/origin.png
 	qer_nocarve
 	
 	nonsolid
@@ -613,7 +613,7 @@ textures/common/origin
 
 textures/common/speaker
 {
-	qer_editorimage textures/common/speaker.tga
+	qer_editorimage textures/common/speaker.png
 	qer_nocarve
 	qer_trans 0.5
 	
@@ -622,7 +622,7 @@ textures/common/speaker
 
 textures/common/particle
 {
-	qer_editorimage textures/common/particle.tga
+	qer_editorimage textures/common/particle.png
 	qer_nocarve
 	qer_trans 0.5
 	
@@ -637,7 +637,7 @@ invisible
 
 textures/common/black
 {
-	qer_editorimage textures/common/black.tga
+	qer_editorimage textures/common/black.png
 
 	{
 		stage colorMap
@@ -647,7 +647,7 @@ textures/common/black
 
 textures/common/white
 {
-	qer_editorimage textures/common/white.tga
+	qer_editorimage textures/common/white.png
 
 	{
 		stage colorMap
