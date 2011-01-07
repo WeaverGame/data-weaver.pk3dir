@@ -1,0 +1,106 @@
+// weaver 
+// gfx menu materials
+
+// main menu
+
+gfx/menu/back
+{
+	nopicmip
+	{
+		stage diffuseMap
+		map gfx/menu/white.png
+		vertexColor
+	}
+}
+
+gfx/menu/logo
+{
+	nopicmip
+	{
+		map gfx/menu/logo.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+gfx/menu/title
+{
+	nopicmip
+	{
+		map gfx/menu/title.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+gfx/menu/scan1
+{
+	nopicmip
+	{
+		map gfx/menu/scan1.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+gfx/menu/scan2
+{
+	nopicmip
+	{
+		map gfx/menu/scan2.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+gfx/menu/playerpic
+{
+	nopicmip
+	{
+		map gfx/menu/playerpic.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+// loading screen and connecting screen
+
+gfx/menu/logo_dark
+{
+	nopicmip
+	{
+		map gfx/menu/logo_dark.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+gfx/menu/black_gradient
+{
+	nopicmip
+	{
+		map gfx/menu/black_gradient.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+gfx/menu/load0
+{
+	nopicmip
+	{
+		map gfx/menu/load0.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+gfx/menu/load1
+{
+	nopicmip
+	{
+		map gfx/menu/load1.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
