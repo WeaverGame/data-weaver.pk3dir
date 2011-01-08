@@ -1,0 +1,89 @@
+// Spell icons
+
+gfx/icons/spells/slice1
+{
+	nopicmip
+	{
+		clampmap gfx/icons/spells/slice1.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+// Icons from painterly set
+// http://opengameart.org/content/painterly-spell-icons-part-1
+// License(s):
+//     GNU GPL 2.0
+//     GNU GPL 3.0
+//     CC-BY 3.0
+//     CC-BY-SA 3.0
+
+gfx/icons/spells/protectair
+{
+	nopicmip
+	{
+		clampmap gfx/icons/spells/protectair.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+gfx/icons/spells/protectfire
+{
+	nopicmip
+	{
+		clampmap gfx/icons/spells/protectfire.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+gfx/icons/spells/protectearth
+{
+	nopicmip
+	{
+		clampmap gfx/icons/spells/protectearth.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+gfx/icons/spells/protectwater
+{
+	nopicmip
+	{
+		clampmap gfx/icons/spells/protectwater.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+gfx/icons/spells/fireball
+{
+	nopicmip
+	{
+		clampmap gfx/icons/spells/fireball.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+gfx/icons/spells/heal1
+{
+	nopicmip
+	{
+		clampmap gfx/icons/spells/heal1.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+gfx/icons/spells/heal2
+{
+	nopicmip
+	{
+		clampmap gfx/icons/spells/heal2.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
