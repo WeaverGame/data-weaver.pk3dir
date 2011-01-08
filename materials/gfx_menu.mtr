@@ -33,6 +33,16 @@ gfx/menu/title
 	}
 }
 
+gfx/menu/title_white
+{
+	nopicmip
+	{
+		map gfx/menu/title_white.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
 gfx/menu/scan1
 {
 	nopicmip
