@@ -87,3 +87,13 @@ gfx/icons/spells/heal2
 		rgbGen identity
 	}
 }
+
+gfx/icons/spells/cure
+{
+	nopicmip
+	{
+		clampmap gfx/icons/spells/cure.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
