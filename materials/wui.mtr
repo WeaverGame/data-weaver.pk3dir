@@ -1,0 +1,122 @@
+ui/button
+{
+	nopicmip
+	nomipmaps
+
+	{
+		map gfx/menu/ui/button.png
+		blend blend
+		rgbGen vertex
+	}
+}
+ui/button_focus
+{
+	nopicmip
+	nomipmaps
+
+	{
+		map gfx/menu/ui/button_focus.png
+		blend blend
+		rgbGen vertex
+	}
+}
+
+ui/arrows_vert_top
+{
+	nopicmip
+	nomipmaps
+	
+	{
+		map gfx/menu/ui/arrows_single.png
+		rotate 270
+		blend blend
+	}
+}
+ui/arrows_vert_bot
+{
+	nopicmip
+	nomipmaps
+	
+	{
+		map gfx/menu/ui/arrows_single.png
+		rotate 90
+		blend blend
+	}
+}
+ui/arrows_vert_0
+{
+	nopicmip
+	nomipmaps
+	
+	{
+		map gfx/menu/ui/arrows_double.png
+		rotate 90
+		blend blend
+	}
+}
+
+ui/arrows_horz_right
+{
+	nopicmip
+	nomipmaps
+	
+	{
+		map gfx/menu/ui/arrows_single.png
+		rotate 180
+		blend blend
+	}
+}
+ui/arrows_horz_left
+{
+	nopicmip
+	nomipmaps
+	
+	{
+		map gfx/menu/ui/arrows_single.png
+		blend blend
+	}
+}
+ui/arrows_horz_0
+{
+	nopicmip
+	nomipmaps
+	
+	{
+		map gfx/menu/ui/arrows_double.png
+		blend blend
+	}
+}
+
+ui/slider
+{
+	nopicmip
+	nomipmaps
+	
+	{
+		map gfx/menu/ui/slider.png
+		blend blend
+	}
+}
+
+
+ui/sliderbutt_0
+{
+	nopicmip
+	nomipmaps
+	
+	{
+		map gfx/menu/ui/sliderbutt_0.png
+		blend blend
+	}
+}
+
+ui/sliderbutt_1
+{
+	nopicmip
+	nomipmaps
+	
+	{
+		map gfx/menu/ui/sliderbutt_1.png
+		blend blend
+	}
+}
