@@ -83,7 +83,23 @@ models/mapobjects/light_props/torchhold1
 models/mapobjects/light_props/torchgr8
 {
 	qer_editorImage		models/mapobjects/light_props/torchgr8.png
-	twosided
+	noShadows
+	noSelfShadow
+
+	{
+		stage		diffuseMap
+		map		models/mapobjects/light_props/torchgr8.png
+		alphatest 0.5
+	}
+	normalMap		textures/trak/light_props/NULL_nm.png
+	specularMap		textures/trak/light_props/torchgr8_s.png
+}
+
+
+models/mapobjects/light_props/torchgr8_back
+{
+	qer_editorImage		models/mapobjects/light_props/torchgr8.png
+	backsided
 	noShadows
 	noSelfShadow
 
