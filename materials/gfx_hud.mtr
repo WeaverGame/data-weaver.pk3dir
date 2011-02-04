@@ -5,9 +5,9 @@ gfx/hud/disc1
 {
 	nopicmip
 	{
-		map gfx/hud/disc1.png          
+		map gfx/hud/disc1.png
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
-        rgbGen identity
+		rgbGen identity
 	}
 }
 
@@ -15,9 +15,9 @@ gfx/hud/disc2
 {
 	nopicmip
 	{
-		map gfx/hud/disc2.png          
+		map gfx/hud/disc2.png
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
-        rgbGen identity
+		rgbGen identity
 	}
 }
 
@@ -25,18 +25,48 @@ gfx/hud/disc3
 {
 	nopicmip
 	{
-		map gfx/hud/disc3.png          
+		map gfx/hud/disc3.png
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
-        rgbGen identity
+		rgbGen identity
 	}
 }
 
-gfx/hud/icon_hp
+gfx/hud/corner
 {
 	nopicmip
 	{
-		map gfx/hud/icon_hp.tga          
+		map gfx/hud/corner.png
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
-        rgbGen identity
+		rgbGen identity
+	}
+}
+
+gfx/hud/bar_end
+{
+	nopicmip
+	{
+		map gfx/hud/bar_end.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
+		rgbGen identity
+	}
+}
+
+gfx/hud/bar_ext
+{
+	nopicmip
+	{
+		map gfx/hud/bar_ext.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
+		rgbGen identity
+	}
+}
+
+gfx/hud/bar_div
+{
+	nopicmip
+	{
+		map gfx/hud/bar_div.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
+		rgbGen identity
 	}
 }
