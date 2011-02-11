@@ -11,6 +11,7 @@ gfx/icons/spells/slice1
 }
 
 // Icons from painterly set
+// J. W. Bjerk (eleazzaar)
 // http://opengameart.org/content/painterly-spell-icons-part-1
 // License(s):
 //     GNU GPL 2.0
@@ -93,6 +94,75 @@ gfx/icons/spells/cure
 	nopicmip
 	{
 		clampmap gfx/icons/spells/cure.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+// Icons from painterly set
+// J. W. Bjerk (eleazzaar)
+// http://opengameart.org/content/painterly-spell-icons-part-2
+// License(s):
+//     GNU GPL 2.0
+//     GNU GPL 3.0
+//     CC-BY 3.0
+//     CC-BY-SA 3.0
+
+gfx/icons/spells/equake1
+{
+	nopicmip
+	{
+		clampmap gfx/icons/spells/equake1.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+gfx/icons/spells/equake2
+{
+	nopicmip
+	{
+		clampmap gfx/icons/spells/equake2.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+gfx/icons/spells/equake3
+{
+	nopicmip
+	{
+		clampmap gfx/icons/spells/equake3.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+gfx/icons/spells/iceshards2
+{
+	nopicmip
+	{
+		clampmap gfx/icons/spells/iceshards2.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+gfx/icons/spells/iceshards3
+{
+	nopicmip
+	{
+		clampmap gfx/icons/spells/iceshards3.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+gfx/icons/spells/lightning
+{
+	nopicmip
+	{
+		clampmap gfx/icons/spells/lightning.png
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen identity
 	}
