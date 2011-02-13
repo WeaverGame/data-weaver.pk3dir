@@ -51,6 +51,16 @@ gfx/hud/bar_end
 	}
 }
 
+gfx/hud/bar_ext0
+{
+	nopicmip
+	{
+		map gfx/hud/bar_ext0.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
+		rgbGen identity
+	}
+}
+
 gfx/hud/bar_ext
 {
 	nopicmip
