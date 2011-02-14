@@ -99,6 +99,26 @@ gfx/icons/spells/cure
 	}
 }
 
+gfx/icons/spells/poisondps
+{
+	nopicmip
+	{
+		clampmap gfx/icons/spells/poisondps.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+gfx/icons/spells/poisonslow
+{
+	nopicmip
+	{
+		clampmap gfx/icons/spells/poisonslow.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
 // Icons from painterly set
 // J. W. Bjerk (eleazzaar)
 // http://opengameart.org/content/painterly-spell-icons-part-2
@@ -163,6 +183,16 @@ gfx/icons/spells/lightning
 	nopicmip
 	{
 		clampmap gfx/icons/spells/lightning.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+gfx/icons/spells/stamina
+{
+	nopicmip
+	{
+		clampmap gfx/icons/spells/stamina.png
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen identity
 	}
