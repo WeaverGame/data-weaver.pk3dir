@@ -35,7 +35,7 @@ gfx/hud/corner
 {
 	nopicmip
 	{
-		map gfx/hud/corner.png
+		clampmap gfx/hud/corner.png
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
 		rgbGen vertex
 	}
@@ -45,7 +45,7 @@ gfx/hud/bar_end
 {
 	nopicmip
 	{
-		map gfx/hud/bar_end.png
+		clampmap gfx/hud/bar_end.png
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
 		rgbGen vertex
 	}
@@ -75,7 +75,7 @@ gfx/hud/bar_div
 {
 	nopicmip
 	{
-		map gfx/hud/bar_div.png
+		clampmap gfx/hud/bar_div.png
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
 		rgbGen vertex
 	}
@@ -85,7 +85,17 @@ gfx/hud/hp_bot
 {
 	nopicmip
 	{
-		map gfx/hud/hp_bot.png
+		clampmap gfx/hud/hp_bot.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
+		rgbGen vertex
+	}
+}
+
+gfx/hud/st_bot
+{
+	nopicmip
+	{
+		clampmap gfx/hud/st_bot.png
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
 		rgbGen vertex
 	}
