@@ -33,16 +33,6 @@ gfx/menu/logo
 	}
 }
 
-gfx/menu/title
-{
-	nopicmip
-	{
-		map gfx/menu/title.png
-		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-		rgbGen identity
-	}
-}
-
 gfx/menu/title_white
 {
 	nopicmip
@@ -53,35 +43,56 @@ gfx/menu/title_white
 	}
 }
 
-gfx/menu/scan1
+gfx/menu/white_gradient
 {
 	nopicmip
 	{
-		map gfx/menu/scan1.png
+		clampmap gfx/menu/white_gradient.png
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen identity
 	}
 }
 
-gfx/menu/scan2
+gfx/menu/decoration_l
 {
 	nopicmip
 	{
-		map gfx/menu/scan2.png
+		clampmap gfx/menu/decoration.png
+		scale -1 1
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen identity
 	}
 }
 
-gfx/menu/playerpic
+gfx/menu/decoration_r
 {
 	nopicmip
 	{
-		map gfx/menu/playerpic.png
+		clampmap gfx/menu/decoration.png
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen identity
 	}
 }
+
+gfx/menu/black_bar
+{
+	nopicmip
+	{
+		map gfx/menu/black_bar.png
+		rgbGen identity
+		scale 2, 2
+	}
+}
+
+gfx/menu/back_scene
+{
+	nopicmip
+	{
+		map levelshots/bow_block.jpg
+		rgbGen identity
+	}
+}
+
 
 // loading screen and connecting screen
 
