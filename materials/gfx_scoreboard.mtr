@@ -1,0 +1,44 @@
+// weaver 
+// gfx scoreboard materials
+
+// scoreboard (and sometimes main menu)
+
+gfx/scoreboard/row
+{
+	nopicmip
+	{
+		map gfx/scoreboard/row.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+gfx/scoreboard/top_red
+{
+	nopicmip
+	{
+		map gfx/scoreboard/top_red.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+gfx/scoreboard/top_blue
+{
+	nopicmip
+	{
+		map gfx/scoreboard/top_blue.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+gfx/scoreboard/vs
+{
+	nopicmip
+	{
+		map gfx/scoreboard/vs.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
