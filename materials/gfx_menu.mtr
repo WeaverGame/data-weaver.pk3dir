@@ -57,8 +57,7 @@ gfx/menu/decoration_l
 {
 	nopicmip
 	{
-		clampmap gfx/menu/decoration.png
-		scale -1 1
+		clampmap gfx/menu/decorative2.png
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen identity
 	}
@@ -68,7 +67,7 @@ gfx/menu/decoration_r
 {
 	nopicmip
 	{
-		clampmap gfx/menu/decoration.png
+		clampmap gfx/menu/decorative.png
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen identity
 	}
