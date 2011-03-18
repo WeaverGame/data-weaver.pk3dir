@@ -54,6 +54,7 @@ models/mapobjects/light_props/chandelier
 {
     qer_editorimage    models/mapobjects/light_props/chandelier.png
 	noShadows
+	alphashadow
     
 	diffusemap         models/mapobjects/light_props/chandelier.png
 	normalMap		models/mapobjects/light_props/chandelier_nm.png
@@ -62,8 +63,9 @@ models/mapobjects/light_props/chandelier
 
 models/mapobjects/light_props/torch
 {
-    qer_editorimage    models/mapobjects/light_props/torch.png
+    qer_editorimage    models/mapobjects/light_props/torch_qer.png
 	noshadows
+	alphashadow
     
 	diffusemap         models/mapobjects/light_props/torch.png
 	specularmap	    models/mapobjects/light_props/torch_s.png
@@ -72,8 +74,10 @@ models/mapobjects/light_props/torch
 
 models/mapobjects/light_props/torchhold1
 {
-    qer_editorimage    models/mapobjects/light_props/torchhold1.png
+    qer_editorimage    models/mapobjects/light_props/torchhold1_qer.png
 	noShadows
+	alphashadow
+
     
 	diffusemap         models/mapobjects/light_props/torchhold1.png
 	specularmap	    models/mapobjects/light_props/torchhold1_s.png
@@ -85,6 +89,7 @@ models/mapobjects/light_props/torchgr8
 	qer_editorImage		models/mapobjects/light_props/torchgr8.png
 	noShadows
 	noSelfShadow
+	alphashadow
 
 	{
 		stage		diffuseMap
