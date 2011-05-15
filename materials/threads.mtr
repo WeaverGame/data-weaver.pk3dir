@@ -135,42 +135,6 @@ models/threads/spirit3
 	}
 }
 
-models/threads/earthfire1
-{
-	{
-		map models/threads/placeholder.png
-        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
-        rgbGen identity
-	}   
-}
-
-models/threads/airfire1
-{
-	{
-		map models/threads/placeholder.png
-        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
-        rgbGen identity
-	}   
-}
-
-models/threads/earthwater1
-{
-	{
-		map models/threads/placeholder.png
-        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
-        rgbGen identity
-	}   
-}
-
-models/threads/airwater1
-{
-	{
-		map models/threads/placeholder.png
-        blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
-        rgbGen identity
-	}   
-}
-
 models/threads/none
 {
 	{
