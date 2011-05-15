@@ -69,6 +69,14 @@ models/weaves/earthquake_s/proj_s_rock
     specularmap 	models/weaves/earthquake_s/proj_s_s.png
 }
 
+models/weaves/earthquake_s/proj_m_rock
+{
+    diffusemap		models/weaves/earthquake_s/proj_m.png
+    normalmap 		models/weaves/earthquake_s/proj_m_n.png
+    specularmap 	models/weaves/earthquake_s/proj_m_s.png
+}
+
+
 ////////////////////
 //Fireball/Firedart
 ////////////////////
