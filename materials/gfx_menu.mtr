@@ -115,6 +115,16 @@ gfx/menu/black_gradient
 	}
 }
 
+gfx/menu/black_gradient_l
+{
+	nopicmip
+	{
+		map gfx/menu/black_gradient_l.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
 gfx/menu/load0
 {
 	nopicmip
