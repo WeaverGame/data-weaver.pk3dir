@@ -1,0 +1,15 @@
+models/entities/obj
+{
+	diffusemap		models/entities/obj_blue.png
+}
+
+models/entities/obj_neut
+{
+	diffusemap		models/entities/obj_neut.png
+}
+
+models/entities/obj_red
+{
+	diffusemap		models/entities/obj_red.png
+}
+
