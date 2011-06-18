@@ -28,7 +28,7 @@ models/mapobjects/light_props/candleflame
 	nonsolid
 //	deformvertexes autosprite2
 	{
-		stage		glowMap
+//		stage		glowMap
 		map		models/mapobjects/light_props/candleflame.png
 		blend		add
 	}
@@ -88,7 +88,6 @@ models/mapobjects/light_props/torchgr8
 {
 	qer_editorImage		models/mapobjects/light_props/torchgr8.png
 	noShadows
-	noSelfShadow
 	alphashadow
 
 	{
@@ -106,7 +105,6 @@ models/mapobjects/light_props/torchgr8_back
 	qer_editorImage		models/mapobjects/light_props/torchgr8.png
 	backsided
 	noShadows
-	noSelfShadow
 
 	{
 		stage		diffuseMap
