@@ -1,11 +1,16 @@
 textures/shields/shield
 {
 	qer_editorimage    models/entities/shield.png
-	
+
 	{
-		map         models/entities/shield.png
-		blend blend
-	}	
+		map			models/entities/shield.png
+		rgb			0.1 0.1 0.1
+		rotate		(time * -0.8)
+		scroll		0.7, 0.7
+		blend		add
+		scale		2, 2
+		alpha		0.2
+	}
 }
 
 models/entities/shield_info
