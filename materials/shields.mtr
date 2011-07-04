@@ -1,7 +1,7 @@
 textures/shields/shield
 {
-	qer_editorimage    models/entities/shield.png
-
+	qer_editorimage		models/entities/shield.png
+	translucent
 	{
 		map			models/entities/shield.png
 		rgb			0.1 0.1 0.1
@@ -15,11 +15,10 @@ textures/shields/shield
 
 models/entities/shield_info
 {
-	qer_editorimage    models/entities/shield_info.png
+	qer_editorimage		models/entities/shield_info.png
 	
 	{
-		map         models/entities/shield_info.png
-		blend blend
-		//blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		map			models/entities/shield_info.png
+		blend		blend
 	}
 }
