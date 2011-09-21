@@ -1,23 +1,237 @@
-// Spell icons
-
-gfx/icons/spells/slice1
-{
-	nopicmip
-	{
-		clampmap gfx/icons/spells/slice1.png
-		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-		rgbGen identity
-	}
-}
-
 // Icons from painterly set
 // J. W. Bjerk (eleazzaar)
 // http://opengameart.org/content/painterly-spell-icons-part-1
+// http://opengameart.org/content/painterly-spell-icons-part-2
+// http://opengameart.org/content/painterly-spell-icons-part-3
 // License(s):
 //     GNU GPL 2.0
 //     GNU GPL 3.0
 //     CC-BY 3.0
 //     CC-BY-SA 3.0
+
+// Misc (icon frames)
+
+gfx/icons/spell_frame
+{
+	nopicmip
+	{
+		clampmap gfx/icons/spell_frame_black.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+gfx/icons/spell_frame_select
+{
+	nopicmip
+	{
+		clampmap gfx/icons/spell_frame_white.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+// Spells
+
+gfx/icons/spells/airblast
+{
+	nopicmip
+	{
+		clampmap gfx/icons/spells/airblast.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+gfx/icons/spells/block
+{
+	nopicmip
+	{
+		clampmap gfx/icons/spells/block.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+gfx/icons/spells/cure
+{
+	nopicmip
+	{
+		clampmap gfx/icons/spells/cure.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+gfx/icons/spells/equake1
+{
+	nopicmip
+	{
+		clampmap gfx/icons/spells/equake1.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+gfx/icons/spells/equake2
+{
+	nopicmip
+	{
+		clampmap gfx/icons/spells/equake2.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+gfx/icons/spells/equake3
+{
+	nopicmip
+	{
+		clampmap gfx/icons/spells/equake3.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+gfx/icons/spells/explosive1
+{
+	nopicmip
+	{
+		clampmap gfx/icons/spells/explosive1.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+gfx/icons/spells/explosive2
+{
+	nopicmip
+	{
+		clampmap gfx/icons/spells/explosive2.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+gfx/icons/spells/fireball
+{
+	nopicmip
+	{
+		clampmap gfx/icons/spells/fireball.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+gfx/icons/spells/fog
+{
+	nopicmip
+	{
+		clampmap gfx/icons/spells/fog.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+gfx/icons/spells/grabplayer
+{
+	nopicmip
+	{
+		clampmap gfx/icons/spells/grabplayer.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+gfx/icons/spells/heal1
+{
+	nopicmip
+	{
+		clampmap gfx/icons/spells/heal1.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+gfx/icons/spells/heal2
+{
+	nopicmip
+	{
+		clampmap gfx/icons/spells/heal2.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+gfx/icons/spells/iceshards2
+{
+	nopicmip
+	{
+		clampmap gfx/icons/spells/iceshards2.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+gfx/icons/spells/iceshards3
+{
+	nopicmip
+	{
+		clampmap gfx/icons/spells/iceshards3.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+gfx/icons/spells/light
+{
+	nopicmip
+	{
+		clampmap gfx/icons/spells/light.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+gfx/icons/spells/lightning
+{
+	nopicmip
+	{
+		clampmap gfx/icons/spells/lightning.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+gfx/icons/spells/link
+{
+	nopicmip
+	{
+		clampmap gfx/icons/spells/link.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+gfx/icons/spells/poisondps
+{
+	nopicmip
+	{
+		clampmap gfx/icons/spells/poisondps.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+gfx/icons/spells/poisonslow
+{
+	nopicmip
+	{
+		clampmap gfx/icons/spells/poisonslow.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
 
 gfx/icons/spells/protectair
 {
@@ -59,130 +273,51 @@ gfx/icons/spells/protectwater
 	}
 }
 
-gfx/icons/spells/fireball
+gfx/icons/spells/revive
 {
 	nopicmip
 	{
-		clampmap gfx/icons/spells/fireball.png
+		clampmap gfx/icons/spells/revive.png
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen identity
 	}
 }
 
-gfx/icons/spells/heal1
+gfx/icons/spells/rip
 {
 	nopicmip
 	{
-		clampmap gfx/icons/spells/heal1.png
+		clampmap gfx/icons/spells/rip.png
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen identity
 	}
 }
 
-gfx/icons/spells/heal2
+gfx/icons/spells/slice1
 {
 	nopicmip
 	{
-		clampmap gfx/icons/spells/heal2.png
+		clampmap gfx/icons/spells/slice1.png
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen identity
 	}
 }
 
-gfx/icons/spells/cure
+gfx/icons/spells/slice2
 {
 	nopicmip
 	{
-		clampmap gfx/icons/spells/cure.png
+		clampmap gfx/icons/spells/slice2.png
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen identity
 	}
 }
 
-gfx/icons/spells/poisondps
+gfx/icons/spells/slice3
 {
 	nopicmip
 	{
-		clampmap gfx/icons/spells/poisondps.png
-		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-		rgbGen identity
-	}
-}
-
-gfx/icons/spells/poisonslow
-{
-	nopicmip
-	{
-		clampmap gfx/icons/spells/poisonslow.png
-		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-		rgbGen identity
-	}
-}
-
-// Icons from painterly set
-// J. W. Bjerk (eleazzaar)
-// http://opengameart.org/content/painterly-spell-icons-part-2
-// License(s):
-//     GNU GPL 2.0
-//     GNU GPL 3.0
-//     CC-BY 3.0
-//     CC-BY-SA 3.0
-
-gfx/icons/spells/equake1
-{
-	nopicmip
-	{
-		clampmap gfx/icons/spells/equake1.png
-		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-		rgbGen identity
-	}
-}
-
-gfx/icons/spells/equake2
-{
-	nopicmip
-	{
-		clampmap gfx/icons/spells/equake2.png
-		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-		rgbGen identity
-	}
-}
-
-gfx/icons/spells/equake3
-{
-	nopicmip
-	{
-		clampmap gfx/icons/spells/equake3.png
-		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-		rgbGen identity
-	}
-}
-
-gfx/icons/spells/iceshards2
-{
-	nopicmip
-	{
-		clampmap gfx/icons/spells/iceshards2.png
-		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-		rgbGen identity
-	}
-}
-
-gfx/icons/spells/iceshards3
-{
-	nopicmip
-	{
-		clampmap gfx/icons/spells/iceshards3.png
-		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-		rgbGen identity
-	}
-}
-
-gfx/icons/spells/lightning
-{
-	nopicmip
-	{
-		clampmap gfx/icons/spells/lightning.png
+		clampmap gfx/icons/spells/slice3.png
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen identity
 	}
