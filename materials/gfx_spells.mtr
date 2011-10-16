@@ -11,21 +11,41 @@
 
 // Misc (icon frames)
 
-gfx/icons/spell_frame
+gfx/icons/spell_frame/unselect
 {
 	nopicmip
 	{
-		clampmap gfx/icons/spell_frame_black.png
+		clampmap gfx/icons/spell_frame/black.png
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen identity
 	}
 }
 
-gfx/icons/spell_frame_select
+gfx/icons/spell_frame/select
 {
 	nopicmip
 	{
-		clampmap gfx/icons/spell_frame_white.png
+		clampmap gfx/icons/spell_frame/white.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+gfx/icons/spell_frame/unselect_process
+{
+	nopicmip
+	{
+		clampmap gfx/icons/spell_frame/black_spike.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+gfx/icons/spell_frame/select_process
+{
+	nopicmip
+	{
+		clampmap gfx/icons/spell_frame/white_spike.png
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbGen identity
 	}
