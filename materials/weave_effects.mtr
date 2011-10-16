@@ -1,6 +1,30 @@
 ////////////////////
+// Link
+////////////////////
+
+weave_effects/link/stream
+{
+	twoSided
+	{
+		map gfx/misc/lightning3.tga
+		blend GL_ONE , GL_ONE
+		rgbGen wave sin 1 0.5 0 7.1
+		scale  2 , 1
+		scroll time * -5 , 0
+	}
+	{
+		map gfx/misc/lightning3.tga
+		blend GL_ONE , GL_ONE
+		rgbGen wave sin 1 0.8 0 8.1
+		scale  -1.3 , -1
+		scroll time * -7.2 , 0
+	}
+}
+
+////////////////////
 //Earthquake
 ////////////////////
+
 weave_effects/earthquake/glow
 {
 	lightFalloffImage	makeintensity(lights/squarelight1c.png)
@@ -36,3 +60,4 @@ weave_effects/earthquake/ripple
 					// it would mess up depth buffer based post process effects
     }
 }
+
