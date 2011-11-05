@@ -1,3 +1,17 @@
+weave_effects/heal/healparticle
+{
+	twoSided
+	nopicmip			// make sure a border remains
+	entityMergable		// allow all the sprites to be merged together
+	
+	{
+		clamp
+		map gfx/weaves/heal/healparticle.png
+		blend GL_ZERO, GL_ONE_MINUS_SRC_COLOR
+		vertexColor
+	}
+}
+
 ////////////////////
 // Link
 ////////////////////
