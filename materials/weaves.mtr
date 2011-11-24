@@ -10,7 +10,8 @@ models/weaves/protect/protect_air
 models/weaves/protect/protect_air_skin
 {
 	{
-		mapq		models/weaves/protect/air.png
+		map			models/weaves/protect/air.png
+		scroll (time*0.4) , -1
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
 		rgbGen identity
 	}
@@ -29,6 +30,7 @@ models/weaves/protect/protect_fire_skin
 {
 	{
 		map			models/weaves/protect/fire.png
+		scroll (time*0.4) , -1
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
 		rgbGen identity
 	}
@@ -47,6 +49,7 @@ models/weaves/protect/protect_earth_skin
 {
 	{
 		map			models/weaves/protect/earth.png
+		scroll -(time*0.4) , 1
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
 		rgbGen identity
 	}
@@ -56,7 +59,6 @@ models/weaves/protect/protect_water
 {
 	{
 		map			models/weaves/protect/water.png
-		rotate		time * -0.8
 		blend		blend
 	}
 }
@@ -65,8 +67,9 @@ models/weaves/protect/protect_water_skin
 {
 	{
 		map			models/weaves/protect/water.png
-		rotate		time * -0.8
-		blend		blend
+		scroll -(time*0.4) , -1
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
+		rgbGen identity
 	}
 }
 
