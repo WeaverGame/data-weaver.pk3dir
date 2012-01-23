@@ -7,6 +7,15 @@ models/mapobjects/light_props/candle
 	bumpmap            models/mapobjects/light_props/candle_nm.png
 }
 
+models/mapobjects/light_props/candlecluster1
+{
+    qer_editorimage    models/mapobjects/light_props/candlecluster1.png
+    
+	diffusemap         models/mapobjects/light_props/candlecluster1.png
+	specularmap	    models/mapobjects/light_props/candlecluster1_s.png
+	bumpmap            models/mapobjects/light_props/NULL_nm.png
+}
+
 models/mapobjects/light_props/candlehold1
 {
     qer_editorimage    models/mapobjects/light_props/candlehold1.png
@@ -26,9 +35,8 @@ models/mapobjects/light_props/candleflame
 	xmap_lightRGB 1 0.9 0.7
 	twosided
 	nonsolid
-//	deformvertexes autosprite2
 	{
-//		stage		glowMap
+		stage		glowMap
 		map		models/mapobjects/light_props/candleflame.png
 		blend		add
 	}
