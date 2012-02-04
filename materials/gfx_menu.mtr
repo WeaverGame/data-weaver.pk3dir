@@ -87,7 +87,7 @@ gfx/menu/back_scene
 {
 	nopicmip
 	{
-		map levelshots/bow_block.jpg
+		map levelshots/avewind_b1.jpg
 		rgbGen identity
 	}
 }
