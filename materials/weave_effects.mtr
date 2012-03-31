@@ -34,6 +34,19 @@ weave_effects/link/stream
 }
 
 ////////////////////
+// Shield
+////////////////////
+
+weave_effects/shield/blocked
+{
+	{
+		map gfx/weaves/shield/shield.png
+		blend blend
+		vertexColor
+	}
+}
+
+////////////////////
 //Earthquake
 ////////////////////
 
