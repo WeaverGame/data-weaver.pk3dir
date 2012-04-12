@@ -39,10 +39,10 @@ weave_effects/link/stream
 
 weave_effects/shield/blocked
 {
+	twoSided
 	{
 		map gfx/weaves/shield/shield.png
 		blend blend
-		vertexColor
 	}
 }
 

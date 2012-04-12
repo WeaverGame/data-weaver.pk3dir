@@ -1,0 +1,568 @@
+Weaver Assets
+License(s):
+	CC-BY 3.0
+	CC-BY-SA 3.0
+These assets are located at:	gfx/2d/camera/grain.png
+								gfx/2d/camera/vignette.png
+								gfx/2d/hud/crosshairs/cross1.png
+								gfx/2d/hud/crosshairs/dot1.png
+								gfx/2d/hud/bar_div.png
+								gfx/2d/hud/bar_end.png
+								gfx/2d/hud/bar_ext.png
+								gfx/2d/hud/bar_ext0.png
+								gfx/2d/hud/corner.png
+								gfx/2d/hud/disc1.png
+								gfx/2d/hud/disc2.png
+								gfx/2d/hud/disc3.png
+								gfx/2d/hud/hp_bot.png
+								gfx/2d/hud/sensedot1.png
+								gfx/2d/hud/sensedot2.png
+								gfx/2d/hud/sensedot3.png
+								gfx/2d/hud/powerups/healing.png
+								gfx/2d/hud/powerups/poisoned1.png
+								gfx/2d/hud/powerups/poisoned2.png
+								gfx/2d/hud/powerups/shielded.png
+								gfx/2d/white.png
+								gfx/icons/spells/block.png
+								gfx/icons/spells/link.png
+								gfx/icons/obj_item.png
+								gfx/menu/ui/arrows_double.png
+								gfx/menu/ui/arrows_single.png
+								gfx/menu/ui/button.png
+								gfx/menu/ui/button_focus.png
+								gfx/menu/ui/slider.png
+								gfx/menu/ui/sliderbutt_0.png
+								gfx/menu/ui/sliderbutt_1.png
+								gfx/menu/black_bar.png
+								gfx/menu/black_gradient.png
+								gfx/menu/black_gradient_l.png
+								gfx/menu/cursor.png
+								gfx/menu/decorative.png
+								gfx/menu/decorative2.png
+								gfx/menu/load0.png
+								gfx/menu/load1.png
+								gfx/menu/logo.png
+								gfx/menu/logo_dark.png
+								gfx/menu/title_white.png
+								gfx/menu/white.png
+								gfx/menu/white_gradient.png
+								gfx/scoreboard/row.png
+								gfx/scoreboard/top_blue.png
+								gfx/scoreboard/top_red.png
+								gfx/scoreboard/vs.png
+								gfx/weaves/heal/healparticle.png
+								gfx/weaves/shield/shield.png
+								gfx/empty.png
+								lights/roundmess.png
+								lights/squarelight.png
+								lights/squarelight1c.png
+								models/debris/wood.png
+								models/entities/flag_blue.md5mesh
+								models/entities/flag_neut.md5mesh
+								models/entities/flag_red.md5mesh
+								models/entities/obj.md5mesh
+								models/entities/obj_blue.png
+								models/entities/obj_dest.ase
+								models/entities/obj_dest.md5mesh
+								models/entities/obj_neut.png
+								models/entities/obj_red.png
+								models/entities/shield.png
+								models/entities/shield_info.md5mesh
+								models/entities/shield_info.png
+								models/players/fallen/body_blue.skin
+								models/players/fallen/body_default.skin
+								models/players/fallen/body_red.skin
+								models/players/fallen/casting1.md5anim
+								models/players/fallen/character.cfg
+								models/players/fallen/crouch.md5anim
+								models/players/fallen/crouch_forward.md5anim
+								models/players/fallen/death1.md5anim
+								models/players/fallen/hit1.md5anim
+								models/players/fallen/icon_blue.png
+								models/players/fallen/icon_default.png
+								models/players/fallen/icon_red.png
+								models/players/fallen/idle.md5anim
+								models/players/fallen/jump.md5anim
+								models/players/fallen/land.md5anim
+								models/players/fallen/run.md5anim
+								models/players/fallen/run_backwards.md5anim
+								models/players/fallen/step.md5anim
+								models/players/fallen/step_left.md5anim
+								models/players/fallen/step_right.md5anim
+								models/players/fallen/sword_attack1.md5anim
+								models/players/fallen/sword_draw.md5anim
+								models/players/fallen/wounded.md5anim
+								models/sword/sword.md5mesh
+								models/sword/sword.png
+								models/threads/air1.tga
+								models/threads/air2.tga
+								models/threads/air3.tga
+								models/threads/earth1.tga
+								models/threads/earth2.tga
+								models/threads/earth3.tga
+								models/threads/fire1.tga
+								models/threads/fire2.tga
+								models/threads/fire3.tga
+								models/threads/placeholder.png
+								models/threads/spirit1.tga
+								models/threads/spirit2.tga
+								models/threads/spirit3.tga
+								models/threads/water1.tga
+								models/threads/water2.tga
+								models/threads/water3.tga
+								models/weaves/airblast/airblast.md5mesh
+								models/weaves/airblast/airblast_c.png
+								models/weaves/airblast/airblast_normal.png
+								models/weaves/airblast/airblast_normal.png
+								models/weaves/common/fireball_c.png
+								models/weaves/earthquake_s/earthquake_c.png
+								models/weaves/earthquake_s/earthquake_fx.md5mesh
+								models/weaves/earthquake_s/earthquake_g.png
+								models/weaves/earthquake_s/earthquake_n.png
+								models/weaves/earthquake_s/earthquake_s.png
+								models/weaves/earthquake_s/earthquake_s01.md5mesh
+								models/weaves/earthquake_s/earthquake_s02.md5mesh
+								models/weaves/earthquake_s/earthquake_s03.md5mesh
+								models/weaves/earthquake_s/earthquake_s04.md5mesh
+								models/weaves/earthquake_s/proj_m.md5mesh
+								models/weaves/earthquake_s/proj_m.png
+								models/weaves/earthquake_s/proj_m_n.png
+								models/weaves/earthquake_s/proj_m_s.png
+								models/weaves/earthquake_s/proj_s.md5mesh
+								models/weaves/earthquake_s/proj_s.png
+								models/weaves/earthquake_s/proj_s_n.png
+								models/weaves/earthquake_s/proj_s_s.png
+								models/weaves/fireball/fireball.md5mesh
+								models/weaves/fireball/fireball_trail.png
+								models/weaves/firedart/firedart.md5mesh
+								models/weaves/iceshards/iceshard01.md5mesh
+								models/weaves/iceshards/iceshard02.md5mesh
+								models/weaves/iceshards/iceshard03.md5mesh
+								models/weaves/iceshards/iceshard04.md5mesh
+								models/weaves/iceshards/iceshard05.md5mesh
+								models/weaves/iceshards/iceshard06.md5mesh
+								models/weaves/iceshards/iceshards_c.png
+								models/weaves/protect/air.png
+								models/weaves/protect/earth.png
+								models/weaves/protect/fire.png
+								models/weaves/protect/protect.md5mesh
+								models/weaves/protect/water.png
+								models/weaves/slice/slice1.md3
+								models/weaves/slice/slice1.png
+								music/theme.ogg
+								particles/fire/fire0040.png
+								particles/fire/fire0041.png
+								particles/fire/fire0042.png
+								particles/fire/fire0043.png
+								particles/fire/fire0044.png
+								particles/fire/fire0045.png
+								particles/fire/fire0046.png
+								particles/fire/fire0047.png
+								particles/fire/fire0048.png
+								particles/fire/fire0049.png
+								particles/fire/fire0050.png
+								particles/fire/fire0051.png
+								particles/fire/fire0052.png
+								particles/fire/fire0053.png
+								particles/fire/flame1.png
+								particles/fire/flame2.png
+								particles/plaster/plaster00.png
+								sound/weaves/airblast/cast.ogg
+								sound/weaves/airblast/fly.ogg
+								sound/weaves/airblast/impact.ogg
+								sound/weaves/firedart/fly.ogg
+								sound/weaves/firedart/impact.ogg
+								sound/weaves/iceshards/cast.ogg
+								sound/weaves/iceshards/fly.ogg
+								sound/weaves/iceshards/impact.ogg
+								base/textures/common/null_nm.png
+								base/textures/common/nullinv_nm.png
+===============================================================
+Weaver Assets
+License(s):
+	This model may be used freely within Weaver, and distributed for use within Weaver.
+	We do not want this to be used in other games.
+	(It is pretty key to the game's identity so we'll keep it unique to Weaver, for now)
+								models/players/fallen/body.md5mesh
+===============================================================
+Icons from painterly set
+http://opengameart.org/content/painterly-spell-icons-part-1
+http://opengameart.org/content/painterly-spell-icons-part-2
+http://opengameart.org/content/painterly-spell-icons-part-3
+http://jwbjerk.com/art
+By: J. W. Bjerk 
+License(s):
+	GNU GPL 2.0
+	GNU GPL 3.0
+	CC-BY 3.0
+	CC-BY-SA 3.0
+These assets are located at:	gfx/icons/spell_frame/black.png
+								gfx/icons/spell_frame/white.png
+								gfx/icons/spell_frame/black_spike.png
+								gfx/icons/spell_frame/white_spike.png
+								gfx/icons/spells/airblast.png
+								gfx/icons/spells/cure.png
+								gfx/icons/spells/equake1.png
+								gfx/icons/spells/equake2.png
+								gfx/icons/spells/equake3.png
+								gfx/icons/spells/explosive1.png
+								gfx/icons/spells/explosive2.png
+								gfx/icons/spells/fireball.png
+								gfx/icons/spells/firedarts1.png
+								gfx/icons/spells/firedarts2.png
+								gfx/icons/spells/firedarts3.png
+								gfx/icons/spells/fog.png
+								gfx/icons/spells/grabplayer.png
+								gfx/icons/spells/heal1.png
+								gfx/icons/spells/heal2.png
+								gfx/icons/spells/iceshards2.png
+								gfx/icons/spells/iceshards3.png
+								gfx/icons/spells/light.png
+								gfx/icons/spells/lightning.png
+								gfx/icons/spells/poisondps.png
+								gfx/icons/spells/poisonslow.png
+								gfx/icons/spells/protectair.png
+								gfx/icons/spells/protectearth.png
+								gfx/icons/spells/protectfire.png
+								gfx/icons/spells/protectwater.png
+								gfx/icons/spells/rip.png
+								gfx/icons/spells/slice1.png
+								gfx/icons/spells/slice2.png
+								gfx/icons/spells/slice3.png
+								gfx/icons/spells/stamina.png
+===============================================================
+Spell Icons by Scribe
+By: Scribe
+License(s):
+	GNU GPL 2.0
+	GNU GPL 3.0
+	CC-BY 3.0
+	CC-BY-SA 3.0
+These assets are located at:	gfx/icons/spells/revive.png
+===============================================================
+Light intensity maps
+By: Michael Denno
+License(s): 
+	CC-BY-NC-SA 3.0 Unported
+These assets are located at:	gfx/2d/charset-bezerk-plain-rc2.png
+								gfx/2d/defer.png
+								gfx/2d/lag.png
+								gfx/2d/net.png
+===============================================================
+Damage decals
+By: Willi Hammes
+License(s):
+	CC-BY-NC-SA 3.0 Unported
+These assets are located at:	gfx/damage/burn_med_mrk_local.png
+								gfx/damage/hole_lg_mrk.jpg
+								gfx/damage/bullet_mrk.png
+								gfx/damage/burn_med_mrk.jpg
+								gfx/damage/bullet_mrk_local.png
+								gfx/damage/hole_lg_mrk_local.png
+===============================================================
+Sprites
+By: Adrian Fuhrmann
+License(s):
+	CC-BY-NC-SA 3.0
+These assets are located at:	gfx/effect/invismap.png
+								gfx/effect/effmap03.png
+								gfx/effect/grid01.png
+								gfx/effect/Reptile_Skin_normal.png
+								gfx/effect/effmap02.png
+								gfx/effect/quad_fx.jpg
+								gfx/effect/effmap01.png
+								gfx/effect/flare01.png
+===============================================================
+XreaL Effect Assets
+By: Robert Beckebans
+License(s): 
+	CC-BY-NC-SA 2.5
+These assets are located at:	gfx/misc/aabb.png
+===============================================================
+XreaL Effect Assets
+By: Michael Denno
+License(s): 
+	CC-BY-NC-SA 3.0 Unported
+These assets are located at:	gfx/misc/bubble.png
+								gfx/misc/bubble_n.png
+								gfx/misc/lightning3.jpg
+								gfx/misc/plasmaa.png
+								gfx/misc/railcorethin_mono.png
+								gfx/misc/raildisc_mono2.png
+								gfx/misc/raildisc_mono2_n.png
+								gfx/misc/shadow.png
+===============================================================
+XreaL Effect Assets
+By: Pat Raynor
+License(s): 
+	CC-BY-NC-SA 3.0 Unported
+These assets are located at:	gfx/misc/flare.png
+								gfx/misc/foe.png
+								gfx/misc/smoke1.png
+								gfx/misc/smoke2.png
+								gfx/misc/smoke3.png
+								gfx/misc/smoke4.png
+								gfx/misc/sun.png
+								gfx/misc/tracer.png
+===============================================================
+Aaargh Font
+http://www.fontsquirrel.com/fonts/Aaargh
+http://www.tupwanders.nl/
+By: Tup Wanders
+License(s):
+	Licensed with a Creative Commons attribution license.
+These assets are located at:	fonts/Aaargh.ttf
+===============================================================
+Free Fonts
+http://savannah.gnu.org/projects/freefont
+By: Steve White
+License(s):
+	GPL
+These assets are located at:	fonts/FreeMono.ttf
+								fonts/FreeMonoBold.ttf
+								fonts/FreeMonoBoldOblique.ttf
+								fonts/FreeMonoOblique.ttf
+								fonts/FreeSans.ttf
+								fonts/FreeSansBold.ttf
+								fonts/FreeSansBoldOblique.ttf
+								fonts/FreeSansOblique.ttf
+								fonts/FreeSerif.ttf
+								fonts/FreeSerifBold.ttf
+								fonts/FreeSerifBoldItalic.ttf
+								fonts/FreeSerifItalic.ttf
+===============================================================
+Bitstream Very Fonts
+By: Bitstream, Inc.
+License(s):
+	See fonts/Bitstream_Very_Fonts_Copyright.txt
+These assets are located at:	fonts/VeraMoBd.ttf
+								fonts/VeraMono.ttf
+===============================================================
+Light intensity maps
+By: Michael Denno
+License(s): 
+	CC-BY-NC-SA 3.0 Unported
+These assets are located at:	lights/flashlight1.png
+===============================================================
+Light intensity maps
+By: Robert Beckebans
+License(s): 
+	CC-BY-NC-SA 2.5
+These assets are located at:	lights/round.png
+								lights/squarelight.png
+								lights/skyline1.png
+								lights/squarelight1a.png
+								lights/squarelight1.png
+								lights/squarelight1b.png
+===============================================================
+Debris models
+By: ratty redemption
+License(s):
+	CC-BY-NC-SA 3.0 Unported
+These assets are located at:	models/debris/stone1a.md5mesh
+								models/debris/stone1b.md5mesh
+								models/debris/stone2a.md5mesh
+								models/debris/stone2b.md5mesh
+								models/debris/stone3a.md5mesh
+								models/debris/stone3b.md5mesh
+								models/debris/stone7.md5mesh
+								models/debris/stone8.md5mesh
+								models/debris/stone9.md5mesh
+								models/debris/wood1a.md5mesh
+								models/debris/wood1b.md5mesh
+								models/debris/wood2a.md5mesh
+								models/debris/wood2b.md5mesh
+								models/debris/wood3a.md5mesh
+								models/debris/wood3b.md5mesh
+===============================================================
+Explosion Sprites
+By: Willi Hammes
+License(s):
+	CC-BY-NC-SA 3.0 Unported
+These assets are located at:	models/weaphits/rlboom_0.png
+								models/weaphits/rlboom_1.png
+								models/weaphits/rlboom_2.png
+								models/weaphits/rlboom_3.png
+								models/weaphits/rlboom_4.png
+								models/weaphits/rlboom_5.png
+								models/weaphits/rlboom_6.png
+								models/weaphits/rlboom_7.png
+								models/weaphits/rlboom_8.png
+								models/weaphits/rlboom_9.png
+								models/weaphits/rlboom_10.png
+								models/weaphits/rlboom_11.png
+								models/weaphits/rlboom_12.png
+===============================================================
+XreaL Particle Assets
+By: Willi Hammes
+License(s):
+	CC-BY-NC-SA 3.0 Unported
+These assets are located at:	particles/blood.png
+								particles/blood_spurt.png
+								particles/blood_trail.png
+								particles/blood2.png
+								particles/flare1.png
+								particles/flare2.png
+								particles/glow.png
+								particles/glow1.png
+								particles/lavasplash.png
+								particles/slime.png
+								particles/smoke.png
+								particles/steam.png
+===============================================================
+Sounds
+By: Michael Denno
+License(s):
+	CC-BY-NC-SA 3.0 Unported
+These assets are located at:	particles/rain01.png
+								particles/rain01_n.png
+===============================================================
+Sounds
+http://freesound.iua.upf.edu/usersViewSingle.php?id=33634
+By: AdcBicycle
+License(s):
+	Creative Commons Sampling Plus 1.0                                                                                                                              http://freesound.iua.upf.edu/usersViewSingle.php?id=33634
+These assets are located at:	sound/feedback/hit.wav
+===============================================================
+Weapon Impact Sounds
+By: Alone Team - MacBeth
+License(s):
+	CC-BY-NC 3.0 Unported
+These assets are located at:	sound/weapons/impact*.ogg
+===============================================================
+Sounds
+By: Michael Denno
+License(s):
+	CC-BY-NC-SA 3.0 Unported
+These assets are located at:	sound/player/telein.ogg
+								sound/player/teleout.ogg
+								sound/weapons/rocket/rockfly.ogg
+								sound/weapons/rocket/rocklf1a.ogg
+===============================================================
+Feedback announcements
+http://www.mancubus.net/svn/openarena/sound/feedback/
+http://openarena.ws/
+By: OpenArean Project
+License(s):
+	GPL
+These assets are located at:	base/sound/feedback/*
+								base/sound/teamplay/*
+								base/sound/player/gibimp1.ogg
+								base/sound/player/gibimp2.ogg
+								base/sound/player/gibimp3.ogg
+								base/sound/player/gibsplt1.ogg
+===============================================================
+Sounds
+http://www.moddb.com/mods/sapphire-scar
+http://sscar.musicexplosion.net/ (now dead link)
+http://www.doom3world.org/phpbb2/viewtopic.php?p=167097#p167097
+By: Sapphire Scar Team
+License(s):
+	CC-BY 2.5
+These assets are located at:	base/sound/player/footsteps/flesh1.ogg
+								base/sound/player/footsteps/flesh2.ogg
+								base/sound/player/footsteps/flesh3.ogg
+								base/sound/player/footsteps/flesh4.ogg
+								base/sound/player/footsteps/mech1.ogg
+								base/sound/player/footsteps/mech2.ogg
+								base/sound/player/footsteps/mech3.ogg
+								base/sound/player/footsteps/mech4.ogg
+								base/sound/player/footsteps/metal1.ogg
+								base/sound/player/footsteps/metal2.ogg
+								base/sound/player/footsteps/metal3.ogg
+								base/sound/player/footsteps/metal4.ogg
+								base/sound/player/footsteps/softrug1.ogg
+								base/sound/player/footsteps/softrug2.ogg
+								base/sound/player/footsteps/softrug3.ogg
+								base/sound/player/footsteps/softrug4.ogg
+								base/sound/player/footsteps/splash1.ogg
+								base/sound/player/footsteps/splash2.ogg
+								base/sound/player/footsteps/splash3.ogg
+								base/sound/player/footsteps/splash4.ogg
+								base/sound/player/footsteps/stone1.ogg
+								base/sound/player/footsteps/stone2.ogg
+								base/sound/player/footsteps/stone3.ogg
+								base/sound/player/footsteps/stone4.ogg
+								base/sound/player/water_in.ogg
+								base/sound/player/water_out.ogg
+								base/sound/world/ambient/windloop.ogg
+								base/sound/weapons/cast/par_shot_1.ogg
+								base/sound/weapons/cast/par_shot_2.ogg
+								base/sound/weapons/cast/par_shot_3.ogg
+								base/sound/weapons/cast/par_shot_4.ogg
+								base/sound/weapons/cast/par_shot_5.ogg
+===============================================================
+Rocket Explosion Sound
+http://www.flashkit.com/soundfx/Mayhem/Explosives/Explode-eRco_Inc-7833/index.php
+By: eRco Inc.
+License(s):
+	Freeware "anyone to download and use as they please"
+These assets are located at:	base/sound/weapons/rocket/rocklx1a.ogg
+===============================================================
+Sprites
+By: Adrian Fuhrmann
+License(s):
+	CC-BY-NC-SA 3.0
+These assets are located at:	base/sprites/balloon4.png
+								base/sprites/friend.png
+===============================================================
+Editor Textures
+By: William Joseph
+License(s):
+	Public Domain
+These assets are located at:	base/textures/common/antiportal.png
+								base/textures/common/areaportal.png
+								base/textures/common/black.png
+								base/textures/common/botclip.png
+								base/textures/common/clip.png
+								base/textures/common/clipplus.png
+								base/textures/common/clusterportal.png
+								base/textures/common/collision.png
+								base/textures/common/cushion.png
+								base/textures/common/caulk.png
+								base/textures/common/donotenter.png
+								base/textures/common/full_clip.png
+								base/textures/common/hint.png
+								base/textures/common/ikclip.png
+								base/textures/common/invisible.png
+								base/textures/common/ladder.png
+								base/textures/common/lightgrid.png
+								base/textures/common/metalclip.png
+								base/textures/common/mirror1.png
+								base/textures/common/missileclip.png
+								base/textures/common/monster_clip.png
+								base/textures/common/moveable_clip.png
+								base/textures/common/nodraw.png
+								base/textures/common/nodrawnonsolid.png
+								base/textures/common/nodrawsolid.png
+								base/textures/common/nodrop.png
+								base/textures/common/nolightmap.png
+								base/textures/common/origin.png
+								base/textures/common/qer_mirror.png
+								base/textures/common/qer_portal.png
+								base/textures/common/shadow.png
+								base/textures/common/slick.png
+								base/textures/common/terrain.png
+								base/textures/common/trigger.png
+								base/textures/common/visportal.png
+								base/textures/common/weapclip.png
+								base/textures/common/white.png
+								base/textures/radiant/notex.png
+								base/textures/radiant/shadernotex.png
+===============================================================
+Decals
+By: Willi Hammes
+License(s):
+	CC-BY-NC-SA 3.0 Unported
+These assets are located at:	base/textures/decals/blood_splat01.png
+								base/textures/decals/blood_splat02.png
+								base/textures/decals/blood_splat03.png
+								base/textures/decals/blood_splat04.png
+								base/textures/decals/blood_splat05.png
+								base/textures/decals/blood_splat06.png
+								base/textures/decals/explo_burn01.png
+								base/textures/decals/explo_burn01_local.png
+								base/textures/decals/glow2.png
+								base/textures/decals/lavaburn.png
+								base/textures/decals/particle_burn01.png
+===============================================================

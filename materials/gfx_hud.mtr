@@ -100,3 +100,23 @@ gfx/hud/st_bot
 		rgbGen vertex
 	}
 }
+
+gfx/hud/crosshairs/xh1
+{
+	nopicmip
+	{
+		clampmap gfx/2d/hud/crosshairs/cross1.png
+		blend blend
+		rgbGen vertex
+	}
+}
+
+gfx/hud/crosshairs/xh2
+{
+	nopicmip
+	{
+		clampmap gfx/2d/hud/crosshairs/dot1.png
+		blend blend
+		rgbGen vertex
+	}
+}
