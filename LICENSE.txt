@@ -1,6 +1,5 @@
 Weaver Assets
 License(s):
-	CC-BY 3.0
 	CC-BY-SA 3.0
 These assets are located at:	gfx/2d/camera/grain.png
 								gfx/2d/camera/vignette.png
@@ -183,7 +182,8 @@ License(s):
 	This model may be used freely within Weaver, and distributed for use within Weaver.
 	We do not want this to be used in other games.
 	(It is pretty key to the game's identity so we'll keep it unique to Weaver, for now)
-								models/players/fallen/body.md5mesh
+	CC-BY-SA 3.0
+These assets are located at:	models/players/fallen/body.md5mesh
 ===============================================================
 Icons from painterly set
 http://opengameart.org/content/painterly-spell-icons-part-1
