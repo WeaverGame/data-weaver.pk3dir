@@ -143,6 +143,46 @@ gfx/icons/spells/fireball
 	}
 }
 
+gfx/icons/spells/firedarts1
+{
+	nopicmip
+	{
+		clampmap gfx/icons/spells/firedarts1.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+gfx/icons/spells/firedarts2
+{
+	nopicmip
+	{
+		clampmap gfx/icons/spells/firedarts2.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+gfx/icons/spells/waterdarts1
+{
+	nopicmip
+	{
+		clampmap gfx/icons/spells/waterdarts1.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
+gfx/icons/spells/waterdarts2
+{
+	nopicmip
+	{
+		clampmap gfx/icons/spells/waterdarts2.png
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbGen identity
+	}
+}
+
 gfx/icons/spells/fog
 {
 	nopicmip

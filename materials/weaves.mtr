@@ -139,6 +139,30 @@ models/weaves/common/lavaball
 }
 
 ////////////////////
+//Iceball/Icedart
+////////////////////
+models/weaves/common/icetrail
+{
+    twosided
+    {
+        blend GL_SRC_ALPHA, GL_ONE
+        map models/weaves/common/iceball_c.png
+            scroll 0.25*((time*15)%4) , 0
+        clamp
+    }
+}
+models/weaves/common/iceball
+{
+    sort additive
+    {
+        blend GL_SRC_ALPHA, GL_ZERO
+        map models/weaves/common/iceball_c.png
+    }
+}
+
+
+
+////////////////////
 //Ice Shards
 ////////////////////
 models/weaves/iceshards/ice
