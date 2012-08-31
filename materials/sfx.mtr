@@ -125,7 +125,6 @@ textures/sfx/flare_toggle
 	{
 		blend		add
 		map		_quadratic
-		rgba
 		red		parm0 * parm7
 		green	parm1 * parm7
 		blue	parm2 * parm7
@@ -145,7 +144,6 @@ textures/sfx/flare_toggle2
 	{
 		blend		add
 		map		_quadratic
-		rgba
 		red		parm0 * parm7
 		green	parm1 * parm7
 		blue	parm2 * parm7
